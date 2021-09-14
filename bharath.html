@@ -7,6 +7,104 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world ......</h1>
+    h2>Form & Input Element</h2>
+	<form>
+		Enter Your Name<br>	 
+		<input type="text" name="username">
+	</form><br>
+	<div>
+		<h2>Text Field Control</h2>
+		<form>
+			First Name:
+			<input type="text" name="firstname"><br><br>
+			Last Name:
+			<input type="text" name="lastname">
+		</form>	
+	</div><br>
+	<div>
+		<h2>Textarea</h2>
+		<form>
+			Enter Your Address<br>
+			<textarea rows="3" cols="30"></textarea>
+		</form>
+	</div><br>
+	<div>
+		<h2>Label tag</h2>
+		<label for="first Name"> first Name</label><br>
+			<input type="text" id="firstname" name="firstname">
+	</div><br>
+	<div>
+		<h2>Password Field & Email Field Control</h2>
+		<form>
+			<label for="Password">Password:</label>
+				<input type="text"id="Password" name="Password"><br><br>
+			<label for="Email"> Email:</label>
+				<input type="text" id="Email" name="Email">
+		</form>
+	</div><br>
+	<div>
+		<h2>Radio Button Control</h2>
+		<form>
+			<label for="Gender">Gender:</label>
+				<input type="Radio"id="Gender" name="Gender" value="Male">Male
+				<input type="Radio"id="Gender" name="Gender" value="Female">Female
+		</form>
+	</div><br>
+	<div>
+		<h2>Check Box</h2>
+		<form>
+			<b>Hobby:</b><br>
+			<input type="Checkbox"id="Cricket" name="Cricket" value="Cricket">
+				<label for="Cricket">Cricket</label><br>
+			<input type="Checkbox"id="Hocky" name="Hocky" value="Hocky">
+				<label for="Hocky">Hocky</label><br>
+			<input type="Checkbox"id="Football" name="Football" value="Football">
+				<label for="Football">Football</label><br>
+		</form>
+	</div><br>
+	<div>
+		<form>
+			<h2>Submit Button Control</h2>
+			<input type="button" value="Submit">
+		</form>
+	</div><br>
+	<div>
+		<h2>Field Set</h2>
+		<form>
+			<fieldset>
+				<legend>User Information</legend>
+				<label for="Name">Enter Name </label><br>
+					<input type="Text" id="Name" name="Name"><br>
+				<label for="Password">Password</label><br>
+					<input type="text"id="Password" name="Password"><br>
+					<input type="button" value="Submit">
+			</fieldset>
+		</form>
+	</div><br>
+	<div>
+		<h2>Files </h2>
+		<form>
+			<label>Select file to upload:</label>
+				<input type="File" name="newfile">
+				<input type="submit" value="submit">
+		</form>
+	</div><br>
+	<div>
+		<h2>date</h2>
+		<form>	
+			Startdate: <input type="date" name="startdate"><br>
+			Enddate: <input type="date" name="enddate"><br><br>
+			<input type="button" value="submit">
+		</form>
+	</div><br>
+	<div>
+		<h2>color</h2>
+		<form>
+			Pick up your favorite color:<br>
+			<input type="color" name="upclick" value="#04DB00">upclick<br><br>
+			<input type="color" name="downclick" value="#5900FF">downclick
+		</form>
+	</div>
+
 </body>
 </html>
