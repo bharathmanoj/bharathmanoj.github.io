@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form attribute</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Action attribute</h1>
+        <form action="https://www.javatpoint.com/html-form-attribute" method="post">
+            <label>First Name: </label>
+            <input type="text" name="name"><br><br>
+            <label>Password: </label>
+            <input type="password" name="pass"><br><br>
+            <input type="submit">
+            </form> 
+    </div>
+    <div style="text-align: center;">
+        <h1>Method attribute </h1>
+        <form action="https://www.javatpoint.com/html-form-attribute" method="get" novalidate>
+            <label>First Name: </label>
+            <input type="name" name="name"><br><br>
+            <label>Last name: </label>
+            <input type="text" name="name"><br><br>
+            <label>Password: </label>
+            <input type="password" name="pass"><br><br>
+            <input type="submit">
+        </form> 
+    </div>
+    <div style="text-align: center;">
+        <h1>Target attribute</h1>
+        <a href="https://www.javatpoint.com/html-form-attribute" target="_blank">click on (_blank)</a><br>
+        <a href="https://www.javatpoint.com/html-form-attribute" target="_self">click on (_self)</a>
+    </div>
+    <div style="text-align: center;">
+        <form action="https://www.javatpoint.com/html-form-attribute" method="get" autocomplete="off">
+            <h1>Auto complete</h1>
+            <label>First Name:</label>
+            <input type="text" name="name"><br><br>
+            <label>Last name: </label>
+            <input type="text" name="name"><br><br>
+            <label>Password: </label>
+            <input type="password" name="pass"><br><br>
+            <input type="submit">
+        </form>
+    </div>
+    <div style="text-align: center;">
+        <h2>novalidate</h2>
+        <form autocomplete="off" method="get">
+            <label>Email</label>
+            <input type="email" name="email"><br><br>
+            <label>user name: </label>
+            <input type="text" name="user name"><br><br>
+            <label>Password: </label>
+            <input type="password" name="pass"><br><br>
+            <input type="submit">
+        </form>
+    </div>
+    <div style="text-align: center;">
+        <h2>autofocus</h2>
+        <form>
+            <input type="text" autofocus><br>
+            <input type="text" ><br>
+            <input type="text" ><br>
+            <input type="text" ><br>
+            <button>submit</button>
+        </form>
+    </div>
+    <div style="text-align: center;">
+        <h2>required</h2>
+        <form>
+            <label>Enter your Email-address</label><br>
+            <input type="text" name="uname" required><br><br>
+             <label>Enter your password</label><br>
+            <input type="password" name="pass"><br><br>
+            <input type="submit" value="login">
+       </form>
+    </div>
+    <div style="text-align: center;">
+        <h2>placeholder</h2>
+        <form>  
+            <label>Enter your name</label><br>  
+            <input type="text" name="uname" placeholder="Your name"><br><br>  
+                <label>Enter your Email address</label><br>  
+            <input type="email" name="email" placeholder="example@gmail.com"><br><br>  
+                <label>Enter your password</label><br>  
+            <input type="password" name="pass" placeholder="your password"><br><br>  
+            <input type="submit" value="login">  
+        </form>  
+    </div>
+    <div style="text-align: center;">
+        <h2>disabled</h2>
+        <form>
+            <label>Enter your Email-address</label><br>
+            <input type="text" name="uname" disabled><br><br>
+            <label>Enter your password</label><br>
+            <input type="password" name="pass"><br><br>
+            <input type="submit" value="login">
+        </form>
+    </div>
+    <div style="text-align: center;">
+        <h2>size attribute</h2>
+        <form>
+            <label>Account holder name</label><br>
+            <input type="text" name="uname" size="20"><br><br>
+            <label>Account number</label><br>
+            <input type="text" name="an" size="20"><br><br>
+            <label>CVV</label><br>
+            <input type="text" name="cvv" size="1"><br><br>
+            <input type="submit" value="login">
+        </form>
+    </div>
+</body>
+</html>
