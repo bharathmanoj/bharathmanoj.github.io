@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout techniques</title>
+    <style>
+        .header{
+            text-align: center;
+            /* background-color: lightgrey; */
+            color: black;
+            width: 100%;
+            height: 80px;
+            padding-top: 1px;
+        }
+        li{
+            display: inline-block;
+            padding: 20px;
+            /* display: flex; */
+        }
+        .nav{
+            background-color: grey;
+        }
+        a{
+            color: black;
+        }
+        .leftside{
+            float: left;
+            width: 80%;
+            height: 440px;
+            background-color: lightgrey;
+        }
+        .rightside{
+            float: right;
+            background-color: lightsteelblue;
+            height: 440px;
+            width: 19%;
+            color: black;
+            text-align: center;
+        }
+        .footer{
+            background-color: lightpink;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to javatpoint</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li style="float: right;"><a href="#">LOGIN</a></li>
+            <li style="float: right;"><a href="#">SIGN-UP</a></li>
+        </ul>
+    </div>
+    <div style="height: 440px;">
+        <div class="leftside">
+            <h2 style="margin: 40px;">HTML Layout Techniques</h2>
+            <p style="margin: 50px;">Creating layouts are the most important things while designing a website, as it will ensure that your
+            website looks in a well-arranged way and the content appears easy to understand. 
+            There are various techniques, and frameworks available for creating layouts, but here we will learn about simple techniques.
+            You can use the following methods to create multicolumn layouts:</p>
+        </div>
+        <div class="rightside">
+            <p>This is aside</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p style="text-align: center; padding-top: 15px;">©<strong> Copyright javaTpoint.com</strong></p>
+    </div>
+</body>
+</html>
