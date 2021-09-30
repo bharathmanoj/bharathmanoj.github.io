@@ -21,64 +21,66 @@
     </style>
 </head>
     <body>
-        <p style="color: gray;">This webpage allows adiministrator to register new users. User's email addresses and usernames must be unique.</p>
-        <div>
-            <label><b>Email address</b></label><br>
-            <input type="email"><br>
-        <P style="color: gray;">A valid email address. All emails form the system will be sent to this address. The email address is not made public and will only be uesd if you will to recieve a new password or wish to receive certain news or notification by email.</p>
-        </div>
-        <div>
-            <label><b>Username<sup style="color: red;">*</sup></b></label><br>
-            <input type="username"><br>
-            <p style="color: gray;">Several special characters are allowed, including space (.), hyphen (-), apostrophe ('), underscore (_), and the @ sign.</p> <br>
-        </div>
-        <div>
-            <label><b>Password<sup style="color: red;">*</sup></b></label><br>
-            <input type="password"><br>
-        </div><br>
-        <div>
-            <label><b>Confirm password<sup style="color: red;">*</sup></b></label><br>
-            <input type="confirm password">
-            <p style="color: gray;"> Passwords match: <br> Provide a password for the new account in both fields.</p>
-        </div>
-        <div>
-            <label><b>Status</b></label><br>
-            <input type="Radio" name="Status">Blocked <br>
-            <input type="Radio" name="Status">Active <br><br>
-        </div>
-        <div>
-            <label><b>Roles</b></label><br>
-            <input type="Checkbox" disabled>Authenticated User <br>
-            <input type="checkbox">Administrator <br><br>
-            <input type="checkbox">Notify user of new account
-        </div> 
-        </div><br>
-        <div>
-                <label><b>Picture</b></label><br>
-                <div style="border: 1px solid black; padding: 4px;margin-right: 86%;">
-                    <input type="file">
-                </div>
-                <p style="color: gray;">Your virtual face or picture. <br>
-                    One file only. <br>
-                    2 MB limit. <br>
-                    Allowed types: png gif jpg jpeg.</p>
-        </div>
-        <div class="border">
-            <h3 style="color: navy; padding-left: 15px;"><b>CONTACT SETTINGS</b></h3>
-            &nbsp;&nbsp;&nbsp;<input type="checkbox">Personal contact form
-            <p style="color: grey; padding-left: 29px;">Allow other users to contact you via a personal contact form which keeps your email address hidden. Note that some privileged users such as site able to contact you even is you choose to disable this feature.</p>
-        </div>
-        <div class="border1">
-            <h3 style="padding-left: 15px; color: navy;">LOCALE SETTINGS</h3>
-            &nbsp;&nbsp;&nbsp;&nbsp;<label><b>Time zone</b></label><br>
-            <div style="padding-left: 15px;">
-                <select style="padding-right: 10px;">
-                    <option value="India">India</option>
-                    <option value="American">American</option>
-                </select>
+        <form>
+            <p style="color: gray;">This webpage allows adiministrator to register new users. User's email addresses and usernames must be unique.</p>
+            <div>
+                <label><b>Email address</b></label><br>
+                <input type="email"><br>
+            <P style="color: gray;">A valid email address. All emails form the system will be sent to this address. The email address is not made public and will only be uesd if you will to recieve a new password or wish to receive certain news or notification by email.</p>
             </div>
-            <p style="color: gray; padding-left: 15px;">Select the desired local time and time zone. Dates and times throughout this site will be displayed using the time zone.</p>
-        </div>
-            <button style="margin-top: 20px; background-color: royalblue; color: white;"><b>Create new account</b></button>
+            <div>
+                <label><b>Username<sup style="color: red;">*</sup></b></label><br>
+                <input type="username"><br>
+                <p style="color: gray;">Several special characters are allowed, including space (.), hyphen (-), apostrophe ('), underscore (_), and the @ sign.</p> <br>
+            </div>
+            <div>
+                <label><b>Password<sup style="color: red;">*</sup></b></label><br>
+                <input type="password"><br>
+            </div><br>
+            <div>
+                <label><b>Confirm password<sup style="color: red;">*</sup></b></label><br>
+                <input type="confirm password">
+                <p style="color: gray;"> Passwords match: <br> Provide a password for the new account in both fields.</p>
+            </div>
+            <div>
+                <label><b>Status</b></label><br>
+                <input type="Radio" name="Status">Blocked <br>
+                <input type="Radio" name="Status">Active <br><br>
+            </div>
+            <div>
+                <label><b>Roles</b></label><br>
+                <input type="Checkbox" disabled>Authenticated User <br>
+                <input type="checkbox">Administrator <br><br>
+                <input type="checkbox">Notify user of new account
+            </div> 
+            </div><br>
+            <div>
+                    <label><b>Picture</b></label><br>
+                    <div style="border: 1px solid black; padding: 4px;margin-right: 86%;">
+                        <input type="file">
+                    </div>
+                    <p style="color: gray;">Your virtual face or picture. <br>
+                        One file only. <br>
+                        2 MB limit. <br>
+                        Allowed types: png gif jpg jpeg.</p>
+            </div>
+            <div class="border">
+                <h3 style="color: navy; padding-left: 15px;"><b>CONTACT SETTINGS</b></h3>
+                &nbsp;&nbsp;&nbsp;<input type="checkbox">Personal contact form
+                <p style="color: grey; padding-left: 29px;">Allow other users to contact you via a personal contact form which keeps your email address hidden. Note that some privileged users such as site able to contact you even is you choose to disable this feature.</p>
+            </div>
+            <div class="border1">
+                <h3 style="padding-left: 15px; color: navy;">LOCALE SETTINGS</h3>
+                &nbsp;&nbsp;&nbsp;&nbsp;<label><b>Time zone</b></label><br>
+                <div style="padding-left: 15px;">
+                    <select style="padding-right: 10px;">
+                        <option value="India">India</option>
+                        <option value="American">American</option>
+                    </select>
+                </div>
+                <p style="color: gray; padding-left: 15px;">Select the desired local time and time zone. Dates and times throughout this site will be displayed using the time zone.</p>
+            </div>
+                <button style="margin-top: 20px; background-color: royalblue; color: white;"><b>Create new account</b></button>
+        </form>
     </body>
 </html>
