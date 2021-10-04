@@ -23,6 +23,9 @@
             color: navy; 
             padding-left: 15px;
         }
+        select{
+            padding-right: 10px;
+        }
     </style>
 </head>
     <body>
@@ -52,8 +55,8 @@
                         <input type="file" name="picture" id="picture">
                     </div>
                     <p style="color: #525252;">Your virtual face or picture.<br>
-                        One file only. <br>
-                        2 MB limit. <br>
+                        One file only.<br>
+                        2 MB limit.<br>
                         Allowed types: png gif jpg jpeg.</p>
                 <div class="border">
                     <h1>CONTACT SETTINGS</h1>
@@ -64,7 +67,7 @@
                     <h1>LOCALE SETTINGS</h1>
                     &nbsp;&nbsp;&nbsp;&nbsp;<label for="time zone"><b>Time zone</b></label><br>
                     <div style="padding-left: 15px;">
-                        <select style="padding-right: 10px;">
+                        <select name="time-zone" id="time-zone">
                             <option value="India">India</option>
                             <option value="American">American</option>
                         </select>
