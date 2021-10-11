@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css hover</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        a:hover{
+            color: red;
+        }
+        h2:hover, p:hover{
+            color: white;
+            background-color: black;
+        }
+        .container {
+            position: relative;
+            width: 50%;
+            max-width: 300px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgba(0, 0, 0, 0.2); 
+            width: 100%;
+            opacity:0; 
+            font-size: 25px;
+            padding: 30px;
+        }
+        .container:hover .overlay {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> Changing the link color on hover by using CSS</h1>
+        <p>click <a href="https://www.javatpoint.com">here</a> go to javatpoint.com</p>
+    </div>
+    <div>
+        <h2>Apply hover on paragraph</h2>
+        <p>Welcome to the javatpoint</p>
+        Click <a :hover href="https://www.w3school.com">here</a> go to w3school.com
+    </div>
+    <div>
+        <h2>Text overlay on image hover</h2>
+            <div class="container">
+                <img src="javatpoint.png" alt="javatpoint" class="image">  
+                <div class="overlay">Welcome to javaTpoint</div>
+            </div>
+    </div>
+</body>
+</html>
