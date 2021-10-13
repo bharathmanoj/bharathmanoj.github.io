@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css vertical align</title>
+    <style>
+        img.a{
+            vertical-align: baseline;
+            width: 100px;
+            height: auto;
+        }
+        img.b{
+            vertical-align: text-top;
+            width: 100px;
+            height: auto;
+        }
+        img.c{
+            vertical-align: middle;
+            width: 100px;
+            height: auto;
+        }
+        img.d{
+            vertical-align: text-bottom;
+            width: 100px;
+            height: auto;
+        }
+        img.e{
+            vertical-align: sub;
+            width: 100px;
+            height: auto;
+        }
+        img.f{
+            vertical-align: super;
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>vertical-align baseline (default)</h2>
+        <img class="a" src="./sydney.jpg" alt="sydney">some text
+    </div>
+
+    <div>
+        <h2>vertical-align text-top</h2>
+        <img class="b" src="./sydney.jpg" alt="sydney"> some text
+    </div>
+
+    <div>
+        <h2>vertical-align middle</h2>
+        <img class="c" src="./sydney.jpg" alt="sydney">some text
+    </div>
+
+    <div>
+        <h2>vertical-align text-bottom</h2>
+        <img class="d" src="./sydney.jpg" alt="sydney">some text
+    </div>
+    
+    <div>
+        <h2>vertical-align sub</h2>
+        <img class="e" src="./sydney.jpg" alt="sydney"> some text
+    </div>
+    
+    <div>
+        <h2>vertical-align sup</h2>
+        <img class="f" src="./sydney.jpg" alt="sydney">some text
+    </div>    
+</body>
+</html>
