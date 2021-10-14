@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box-shadow</title>
+    <style>
+        div{
+            border: 1px solid black;
+            margin: 100px;
+        }
+        .hvoffset{
+            box-shadow: 10px 10px 5px;
+        }
+        .spread{
+            box-shadow: 10px 10px 5px 10px;
+        }
+        .color{
+            box-shadow: 10px 10px 5px 10px red;
+        }
+        .inset{
+            box-shadow: 10px 10px 5px 10px red inset;
+        }
+        .initial{
+            box-shadow: initial;
+        }
+    </style>
+</head>
+<body>
+    <div class="hvoffset">
+        <h1>It is a shadow box that has h-offset, v-offset and blur attributes</h1>
+    </div>
+    <div class="spread">
+        <h2>It sets the shadow size. The spread size depends upon the spread value</h2>
+    </div>
+    <div class="color">
+        <h2>This color is used to set the color of the shadow</h2>
+    </div>
+    <div class="inset">
+        <h2>Normally, the shadow generates outside of the box, but by using inset, the shadow can be created within the box</h2>
+    </div>
+    <div class="initial">
+        <h2>It is used to set the property of the box-shadow to its default value</h2>
+    </div>
+</body>
+</html>

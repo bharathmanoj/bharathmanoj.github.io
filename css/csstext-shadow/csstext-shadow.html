@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css text-shadow</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .simple{
+            text-shadow: 5px 5px red;
+        }
+        .blur{
+            text-shadow: 4px 4px 3px blue;
+        }
+        .multi{
+            text-shadow: -4px -4px 2px red, 4px 4px 2px blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="simple">simple shadow</h1>
+    </div>
+    <div>
+        <h2 class="blur">Fuzzy shadow</h2>
+    </div>
+    <div>
+        <h2 class="multi">Multiple shadow</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css word-wrap</title>
+    <style>
+        .para1{
+            width: 150px;
+            border: 1px solid black;
+            word-wrap: normal;
+        }
+        .para2{
+            width: 150px;
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>normal</h1>
+        <p class="para1">In this paragraph there is a very long word 
+            helllllllllllllllllloooooooooo everrrrrrrrrrrrryyyyyyyyyoneeeeee</p>
+    </div>
+    <div>
+        <h1>break-word</h1>
+        <p class="para2">In this paragraph there is a very long word 
+            helllllllllllllllllloooooooooo everrrrrrrrrrrrryyyyyyyyyoneeeeee</p>
+    </div>
+</body>
+</html>
