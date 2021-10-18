@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css counter</title>
+    <style>
+        .div1{
+            counter-reset: section;
+        }
+        h1{
+            counter-reset: subsection;
+        }
+        h1::before{
+            counter-increment: section;
+            content:"Tutorial " counter(section)": ";
+        }
+        h2::before{
+            counter-increment: subsection;
+            content: counter(section)"."counter(subsection)": ";
+        }
+        .div2{
+            counter-reset: section;
+        }
+        ol{
+            counter-reset: subsection;
+            list-style-type: none;
+        }   
+        li::before {
+            counter-increment: subsection;
+            content: counters(subsection,".") " ";
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <!-- css nested counters and css counter -->
+        <h1>HTML Tutorial</h1>
+            <h2>Core Java tutorial</h2>  
+            <h2>Servlet tutorial</h2>  
+            <h2>JSP tutorial</h2>  
+            <h2>Spring tutorial</h2>  
+            <h2>Hibernate tutorial</h2>  
+        <h1>JAVASCRIPT Tutorial</h1>
+            <h2>Core Java tutorial</h2>  
+            <h2>Servlet tutorial</h2>  
+            <h2>JSP tutorial</h2>  
+            <h2>Spring tutorial</h2>  
+            <h2>Hibernate tutorial</h2>  
+        <h1>SQL Tutorial</h1>
+            <h2>Core Java tutorial</h2>  
+            <h2>Servlet tutorial</h2>  
+            <h2>JSP tutorial</h2>  
+            <h2>Spring tutorial</h2>  
+            <h2>Hibernate tutorial</h2>  
+        <h1>JAVA Tutorial</h1>
+            <h2>Core Java tutorial</h2>  
+            <h2>Servlet tutorial</h2>  
+            <h2>JSP tutorial</h2>  
+            <h2>Spring tutorial</h2>  
+            <h2>Hibernate tutorial</h2>  
+        <h1>BOOTSTRAP Tutorial</h1>
+            <h2>Core Java tutorial</h2>  
+            <h2>Servlet tutorial</h2>  
+            <h2>JSP tutorial</h2>  
+            <h2>Spring tutorial</h2>  
+            <h2>Hibernate tutorial</h2>  
+    </div>
+    <div class="div2">
+        <!-- Different level of nesting counters -->
+        <ol>
+            <li>Hello</li>
+            <li>Hello</li>
+                <ol>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                        <ol>
+                            <li>Hello</li>
+                            <li>Hello</li>
+                            <li>Hello</li>
+                        </ol>
+                    <li>Hello</li>
+              </ol>
+            <li>Hello</li>
+            <li>Hello</li>
+        </ol>     
+    </div>
+</body>
+</html>
