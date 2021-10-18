@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css clearfix</title>
+    <style>
+        .para1{
+            border: 3px solid;
+            padding: 5px;
+            background-color: gray;
+        }
+        .img1{
+            float: right;
+        }
+        .img2{
+            float: right;
+        }
+        .clearfix{
+            border: 3px solid;
+            padding: 5px;
+            overflow: auto;
+            background-color: gray;
+        }
+        .blue{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 1px;
+            background-color: blue;
+        }
+        .orange{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 1px;
+            background-color: orange;
+        }
+        .clearfix{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+   <div>
+        <h1>Without clearfix</h1>
+        <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container</p>
+        <p class="para1"><img src="./sydney.jpg" alt="sydney" class="img1" width="100" height="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...</p>
+   </div>
+   <div>
+       <h2>With clearfix</h2>
+       <p>We can fix this by adding a clearfix class with overflow: auto; to the containing element</p>
+       <p class="clearfix"><img src="./sydney.jpg" alt="sydney" class="img2" width="100" height="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...</p>
+   </div>
+   <div>
+        <h2>css clear property</h2>
+        <p class="blue">01</p>
+        <p class="blue">02</p>
+        <p class="blue">03</p>
+        <p class="orange clearfix">04</p>
+        <p class="orange">05</p>
+        <p class="orange">06</p>
+        <p class="blue clearfix">07</p>
+        <p class="blue">08</p>
+        <p class="blue">09</p>
+   </div>
+</body>
+</html>
