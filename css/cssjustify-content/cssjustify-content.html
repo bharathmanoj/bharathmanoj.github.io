@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css justify content</title>
+    <style>
+        #container{  
+            display:flex;
+            justify-content: flex-start; 
+            border: 1px solid; 
+        }  
+        .flex-start{
+            background-color: green;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+        }
+        #container1{
+            display: flex;
+            justify-content: center;
+            border: 1px solid;
+        }
+        .flex-center{
+            background-color: yellow;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+        }
+        #container2{
+            display: flex;
+            justify-content: flex-end;
+            border: 1px solid;
+        }
+        .flex-end{
+            background-color: orange;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+        }
+        #container3{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid;
+        }
+        .space-around{
+            background-color: red;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+        }
+        #container4{
+            display: flex;
+            justify-content: space-evenly;
+            border: 1px solid;
+        }
+        .space-evenly{
+            background-color:gray;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+        }
+        #container5{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid;
+        }
+        .space-between{
+            background-color: black;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Start</h1>
+    <div id="container">
+        <div class="flex-start">1</div>
+        <div class="flex-start">2</div>
+        <div class="flex-start">3</div>
+        <div class="flex-start">4</div>
+        <div class="flex-start">5</div>
+    </div>
+    <h2>Flex-center</h2>
+    <div id="container1">
+        <div class="flex-center">1</div>
+        <div class="flex-center">2</div>
+        <div class="flex-center">3</div>
+        <div class="flex-center">4</div>
+        <div class="flex-center">5</div>
+    </div>
+    <h2>Flex-end</h2>
+    <div id="container2">
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+        <div class="flex-end">4</div>
+        <div class="flex-end">5</div>
+    </div>
+    <h2>Space-around</h2>
+    <div id="container3">
+        <div class="space-around">1</div>
+        <div class="space-around">2</div>
+        <div class="space-around">3</div>
+        <div class="space-around">4</div>
+        <div class="space-around">5</div>
+    </div>
+    <h2>Space-evenly</h2>
+    <div id="container4">
+        <div class="space-evenly">1</div>
+        <div class="space-evenly">2</div>
+        <div class="space-evenly">3</div>
+        <div class="space-evenly">4</div>
+        <div class="space-evenly">5</div>
+    </div>
+    <h2>Space-between</h2>
+    <div id="container5">
+        <div class="space-between">1</div>
+        <div class="space-between">2</div>
+        <div class="space-between">3</div>
+        <div class="space-between">4</div>
+        <div class="space-between">5</div>
+    </div>
+</body>
+</html>
