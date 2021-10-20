@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css background-clip</title>
+    <style>
+        .border-box{
+            background-color: rgb(235, 211, 104);
+            border: 40px dotted;
+            padding: 40px;
+            background-clip: border-box;
+            margin: 50px;
+        }
+        .padding-box{
+            background-color: rgb(157, 228, 169);
+            border: 40px dotted;
+            padding: 40px;
+            background-clip: padding-box;
+            margin: 50px;
+        }
+        .content-box{
+            background-color: rgb(103, 160, 182);
+            border: 40px dotted;
+            padding: 40px;
+            background-clip: content-box;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>css background-clip</h1>
+        <div class="border-box">
+            <h2>Border-box</h2>
+            <p>Ubuntu is a complete Linux operating system, freely available with both community and professional support. 
+                The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, 
+                that software tools should be usable by people in their local language and despite any disabilities, and that people should have the 
+                freedom to customize and alter their software in whatever way they see fit.</p>
+        </div>
+        <div class="padding-box">
+            <h2>Border-box</h2>
+            <p>Ubuntu is a complete Linux operating system, freely available with both community and professional support. 
+                The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, 
+                that software tools should be usable by people in their local language and despite any disabilities, and that people should have the 
+                freedom to customize and alter their software in whatever way they see fit.</p>
+        </div>
+        <div class="content-box">
+            <h2>Border-box</h2>
+            <p>Ubuntu is a complete Linux operating system, freely available with both community and professional support. 
+                The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, 
+                that software tools should be usable by people in their local language and despite any disabilities, and that people should have the 
+                freedom to customize and alter their software in whatever way they see fit.</p>
+        </div>
+    </div>
+</body>
+</html>
