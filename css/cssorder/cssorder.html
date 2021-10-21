@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css order</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .order{
+            list-style: none;
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>order property</h1>
+        <ul class="container">
+            <li class="order" style="order: 7;">BOX 1</li>
+            <li class="order" style="order: 6;">BOX 2</li>
+            <li class="order" style="order: 5;">BOX 3</li>
+            <li class="order" style="order: 4;">BOX 4</li>
+            <li class="order" style="order: 3;">BOX 5</li>
+            <li class="order" style="order: 2;">BOX 6</li>
+            <li class="order" style="order: 1;">BOX 7</li>
+        </ul>
+    </div>
+</body>
+</html>
