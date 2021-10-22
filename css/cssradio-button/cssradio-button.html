@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css radio button</title>
+    <style>
+        .container {  
+            display: block;  
+            position: relative;  
+            padding-left: 60px;  
+            margin-bottom: 25px;  
+            cursor: pointer;  
+            font-size: 25px;  
+        }  
+        .container input {  
+            opacity: 0;   
+        }  
+        .check {  
+            position: absolute;  
+            left: 0;  
+            height: 30px;  
+            width: 30px;  
+            background-color: lightgray;  
+            border-radius: 50%;  
+        }  
+        .container:hover input ~ .check {  
+            background-color: gray;  
+        }  
+        .container input:checked ~ .check {  
+            background-color: black;  
+        }              
+        .check:after {  
+            content: "";  
+            position: absolute;  
+            display: none;  
+        }   
+        .container input:checked ~ .check:after {  
+            display: block;  
+        }     
+        .container .check:after {  
+            top: 7px;  
+            left: 7.5px;  
+            width: 15px;  
+            height: 15px;  
+            border-radius: 50%;  
+            background: white;  
+        }  
+    </style>
+</head>
+<body>
+    <div>
+        <h1>css radio button</h1>  
+            <label class="container">Car
+                <input type="radio" name="radio">  
+                <span class="check"></span>  
+            </label>  
+            <label class="container">Bike  
+                <input type="radio" name="radio">  
+                <span class="check"></span>  
+            </label>  
+            <label class="container">Bus  
+                <input type="radio" name="radio">  
+                <span class="check"></span>  
+            </label>  
+            <label class="container">Train 
+                <input type="radio" name="radio">  
+                <span class="check"></span>  
+            </label>  
+    </div>
+</body>
+</html>
