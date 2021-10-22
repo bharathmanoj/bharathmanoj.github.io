@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css clip-path</title>
+    <style>
+        .img1{
+            /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+        .img2{
+            clip-path: circle(50%);
+            /* clip-path: circle(300px at 30% 30%); */
+        }
+        .img3{
+            clip-path: ellipse(50% 30%);
+            /* clip-path: ellipse(30% 20% at 50% 50%); */
+        }
+        .img4{
+            clip-path: inset(20% 20% 30% 20%);
+            /* clip-path: inset(20% 20% 30% 20% round 20px); */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Polygon</h1>
+        <img src="./sydney.jpg" alt="sydney" class="img1">
+    </div>
+    <div>
+        <h1>Circle</h1>
+        <img src="./sydney.jpg" alt="sydney" class="img2">
+    </div>
+    <div>
+        <h1>Polygon</h1>
+        <img src="./sydney.jpg" alt="sydney" class="img3">
+    </div>
+    <div>
+        <h1>inset</h1>
+        <img src="./sydney.jpg" alt="sydney" class="img4">
+    </div>
+</body>
+</html>
