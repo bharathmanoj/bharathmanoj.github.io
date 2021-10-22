@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css text effects</title>
+    <style>
+        .para1{
+            width: 50%;
+            border: 1px solid;
+            font-size: 20px;
+            word-break: break-all;
+            /* word-break: keep-all; */
+        }
+        .para2{
+            width: 50%;
+            border: 1px solid;
+            font-size: 20px;
+            background-color: gray;
+            word-wrap: break-word;
+        }
+        .para3{
+            white-space: nowrap;
+	        height: 30px;	
+            width: 50%;			
+            overflow: hidden;  
+            border: 1px solid black; 
+            font-size: 25px; 
+            text-overflow: ellipsis; 
+        }
+        .para3:hover{
+            overflow: visible;
+        }
+        .para4{
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+        }
+        .para5{
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+        }
+        .para6{
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+        }
+        #tb{
+            writing-mode: horizontal-tb;
+        }
+        #lr{
+            writing-mode: vertical-lr;
+        }
+        #rl{
+            writing-mode: vertical-rl;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>word-break</h1>
+        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <h2>word-wrap</h2>    
+        <p class="para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipppppppppppppppppppppppppppppppssssssssssssssssssuuuuuuuuuuuuuummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+        <h2>text-overflow</h2>
+        <p class="para3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+         <h2>Writing-mode</h2>   
+        <div class="para4">
+            <p id="tb">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div><br>
+        <div class="para5">
+            <p id="lr">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>   
+        </div><br>
+        <div class="para6">
+            <p id="rl">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p> 
+        </div>
+    </div>
+</body>
+</html>
