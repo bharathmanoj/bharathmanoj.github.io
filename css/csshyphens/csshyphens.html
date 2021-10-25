@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Hyphens</title>
+    <style>
+        .none{
+            width: 100px;
+            border: 2px solid;
+            hyphens: none;
+        }
+        .manual{
+            width: 100px;
+            border: 2px solid;
+            hyphens: manual;
+        }
+        .auto{
+            width: 100px;
+            border: 2px solid;
+            hyphens: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>hyphens</h1>
+        <p class="none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+            dummy text ever since the 1500s, whenwhenwhenwhenwhenwhenwhenananananannanana unununankkkknknown 
+            printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p class="manual">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It is very­very looooo­ooooo­ooong word.</p>
+        <p class="auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+            dummy text ever since the 1500s, when an whenwhenwhenwhenwhenwhenwhen an anananannanana unununankkkknknown 
+            printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+</body>
+</html>
