@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css background-origin</title>
+    <style>
+        div{
+            padding: 60px;
+            width: 350px;
+            height: 175px;
+            background-image:  url(./sydney.jpg);
+            background-repeat: no-repeat;
+            border: 8px dashed red;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin: 20px;
+        }
+        .div1{
+            background-origin: border-box;
+        }
+        .div2{
+            background-origin: padding-box;
+        }
+        .div3{
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>background-origin</h1>
+    <div class="div1">
+        <p>Border-box</p>
+    </div>
+    <div class="div2
+    ">
+        <p>Padding-box</p>
+    </div>
+    <div class="div3">
+        <p>Content-box</p>
+    </div>
+</body>
+</html>

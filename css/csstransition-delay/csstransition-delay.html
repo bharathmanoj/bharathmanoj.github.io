@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transition-delay</title>
+    <style>
+        .para1{
+            width: 400px;
+            height: 400px;
+            background: black;
+            transition-property: background-color;
+            transition-duration: 6s;
+            transition-delay: 1s;     
+        }
+        .para1:hover{
+            background-color: red;
+        }
+        .para2{
+            width: 400px;
+            height: 400px;
+            background: black;
+            transition-property: width;
+            transition-duration: 6s;
+            transition-delay: 1s;     
+        }
+        .para2:hover{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>transition-delay</h1>
+        <p class="para1">hello</p>
+    </div>
+    <div>
+        <p class="para2">hello</p>
+    </div>
+</body>
+</html>

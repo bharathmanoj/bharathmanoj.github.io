@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-origin</title>
+    <style>
+        div{  
+            height: 100px;  
+            width: 400px;  
+            border: 5px dotted black; 
+        }  
+        .div1 {  
+            margin: 100px;  
+            background-color: red;  
+        }  
+        .div2 {  
+            background: url("./img.jpeg");  
+            transform: rotate(35deg);  
+            transform-origin: 6% 0%;  
+        }  
+        .div3 {  
+            margin-left: 30%;  
+            background-color: black;  
+        }  
+        .div4 {  
+            background: url("./img2.jpeg");  
+            transform: rotate(35deg);  
+            transform-origin: right top;  
+        }  
+        .div5 {  
+            margin-left: 60%;  
+            background-color: red;  
+        }  
+        .div6 {  
+            background: url("./img3.jpeg");  
+            transform: rotate(90deg);  
+            transform-origin: right left;  
+        }  
+    </style>
+</head>
+<body>
+    <h1>Transform-origin</h1>
+        <div class="div1">
+            <div class="div2"></div>
+        </div>
+        <div class="div3">
+            <div class="div4"></div>
+        </div>
+        <div class="div5">
+            <div class="div6"></div>
+        </div>
+</body>
+</html>
