@@ -12,15 +12,13 @@ body{
         margin-left: 400px !important;
         margin-top: -10px !important;
     }
-  } 
-  
-
+} 
     /* header */
 
 .icon1{
     background-image: url(./01.png);
     width: 100%;
-    height: 900px;
+    height: 900px;  
 }
 .icon{
     position: absolute;
@@ -90,9 +88,9 @@ body{
     display: block; 
     font-size: 18px;
 }  
-.dropdown1 a:hover{
+/* .dropdown1 a:hover{
     color: red;  
-}  
+}   */
 .dropdown:hover .dropdown1{  
     display: block; 
 }
@@ -134,6 +132,11 @@ body{
     font-size: 17px;
     color: white;  
     text-decoration: none;
+}
+.button3:hover{
+    background-image: none;
+    background-color: #7789f2;
+    border: none;
 }
 
 /* section 1*/
@@ -310,6 +313,10 @@ body{
     outline-color: rgb(192, 192, 192);  
     outline-offset: 10px;
 }
+.img-border:hover{
+    background-color: black;
+    opacity: 0.7;
+}
 
 /* section 3 */
 
@@ -328,7 +335,7 @@ body{
     text-align: center;
     position: absolute;
     left: 21.1%;
-    top: 279%;
+    top: 277%;
     width:249px;
     padding-top: 20px;
     height: 60px;
@@ -340,7 +347,7 @@ body{
     text-align: center;
     position: absolute;
     left: 37.1%;
-    top: 279%;
+    top: 277%;
     width:249px;
     padding-top: 20px;
     height: 60px;
@@ -352,7 +359,7 @@ body{
     text-align: center;
     position: absolute;
     left: 53.2%;
-    top: 279%;
+    top: 277%;
     width:249px;
     padding-top: 20px;
     height: 60px;
@@ -364,7 +371,7 @@ body{
     text-align: center;
     position: absolute;
     left: 69.2%;
-    top: 279%;
+    top: 277%;
     width:249px;
     padding-top: 20px;
     height: 60px;
@@ -467,6 +474,9 @@ body{
     width: 35px;
     height: 35px;
 }
+.footer-fb:hover{
+    background-color: #acb3dd;
+}
 .footer-google{
     position: absolute; 
     top: 260em; 
@@ -474,6 +484,9 @@ body{
     background-color: gray;
     width: 35px;
     height: 35px;
+}
+.footer-google:hover{
+    background-color: #acb3dd;
 }
 .footer-in{
     position: absolute; 
@@ -483,6 +496,9 @@ body{
     width: 35px;
     height: 35px;
 }
+.footer-in:hover{
+    background-color: #acb3dd;
+}
 .footer-twr{
     position: absolute; 
     top: 260em; 
@@ -491,6 +507,9 @@ body{
     width: 35px;
     height: 35px;
 }
+.footer-twr:hover{
+    background-color: #acb3dd;
+}
 .footer-wk{
     position: absolute; 
     top: 260em; 
@@ -498,6 +517,9 @@ body{
     background-color: gray;
     width: 35px;
     height: 35px;
+}
+.footer-wk:hover{
+    background-color: #acb3dd;
 }
 .footer-list{
     list-style-type: none;
@@ -537,22 +559,68 @@ input{
     left: 16px;
     text-decoration: none;
 }
-.grid1{
+.footer-button:hover{
+    background-image: url(./01.png);
+    border: 2px solid white;
+}
+.container {
+    width: 100px;
+    height: auto;
+    margin-left: 50%;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 30px 650px;
     position: absolute;
-    top: 247em;
-    left: 35%;
-}
-.grid2{
+    top: 249em;
+    left: 20%;
+  }
+  .cell{
     background-image: url(./01.png);
     border: 5px solid rgba(105, 102, 102, 0.1);
     padding: 40px;
-}
+  }
 .footer-ul1{
     display: flex;
     position: absolute;
     top: 270em;
     left: 35%;
+}
+/* secrion5 */
+.section5-img1{
+    background-image: url(./01.png);
+    border: 2px solid;
+    position: absolute;
+    top: 217em;
+    left: 20%;
+    width: 330px;
+    height: 250px;
+    margin: 20px;
+}
+.section5-img1:hover{
+    opacity: 0.5;
+}
+.section5-img2{
+    background-image: url(./01.png);
+    border: 2px solid;
+    position: absolute;
+    top: 217em;
+    left: 42%;
+    width: 310px;
+    height: 250px;
+    margin: 20px;
+}
+.section5-img2:hover{
+    opacity: 0.5;
+}
+.section5-img3{
+    background-image: url(./01.png);
+    border: 2px solid;
+    position: absolute;
+    top: 217em;
+    left: 63%;
+    width: 330px;
+    height: 250px;
+    margin: 20px;
+}
+.section5-img3:hover{
+    opacity: 0.5;
 }
