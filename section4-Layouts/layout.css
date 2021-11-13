@@ -20,13 +20,13 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
-h1::first-letter {
+/* h1::first-letter {
   color: red;
   font-size: 40px;
-}
-p::first-line {
-  /* color: red; */
-}
+} */
+/* p::first-line {
+  color: red;
+} */
 
 h2 {
   /* background-color: red; */
@@ -64,18 +64,18 @@ h4 {
 }
 
 p {
-  font-size: 22px;
+  font-size: 18px;
   /* font-family: sans-serif; */
   line-height: 1.5;
 }
 
-ul li::marker {
+/* ul li::marker {
   color: yellow;
   font-size: 40px;
-}
+} */
 
 li {
-  font-size: 20px;
+  font-size: 18px;
   /* font-family: sans-serif; */
   margin-bottom: 10px;
 }
@@ -127,13 +127,14 @@ li:last-child {
 
 .main-header {
   background-color: #f7f7f7;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
-  /* padding: 20px 40px; */
-  /* border-top: 10px solid #64b8aa; */
+  background-color: red;
+  padding: 20px 40px;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding: 20px 40px;
+  border-top: 10px solid #64b8aa; */
   margin: 0px 20px;
-  height: 120px;
+  /* height: 64px; */
 }
 
 aside {
@@ -161,12 +162,12 @@ article p:first-child {
 
 /* styling links */
 a {
-  /* color: #64b8aa; */
+  color: #64b8aa;
   text-decoration: none;
 }
 
 a:visited {
-  color: green;
+  /* color: green; */
 }
 
 a:hover {
@@ -186,9 +187,9 @@ a:active {
   height: auto;
 }
 
-nav {
+/* nav {
   text-align: center;
-}
+} */
 
 nav a:link {
   display: inline-block;
@@ -220,3 +221,35 @@ footer p {
   color: inherit;
   background-color: inherit;
 } */
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin: 0;
+  /* padding-left: 80px; */
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+  padding-top: 24px;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}

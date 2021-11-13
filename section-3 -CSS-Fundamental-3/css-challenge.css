@@ -24,8 +24,25 @@ body {
   padding: 15px;
 }
 
+h1 {
+  position: relative;
+}
+
+h1::before {
+  content: "Sale";
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  letter-spacing: 2px;
+  padding: 5px 14px;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+}
+
 .price {
   font-size: 26px;
+  display: flex;
 }
 
 .free-shipping {
@@ -42,6 +59,30 @@ body {
 
 .link-info:hover {
   text-decoration: none;
+}
+
+.box {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.box2 {
+  background-color: red;
+}
+.box3 {
+  background-color: green;
+}
+.box4 {
+  background-color: pink;
+}
+.box5 {
+  background-color: yellow;
+}
+.box6 {
+  background-color: blue;
 }
 
 .details {
