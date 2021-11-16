@@ -25,7 +25,7 @@ h1::first-letter {
   font-size: 40px;
 }
 p::first-line {
-  /* color: red; */
+  color: red;
 }
 
 h2 {

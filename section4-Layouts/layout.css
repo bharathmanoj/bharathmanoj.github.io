@@ -1,5 +1,6 @@
 * {
   /* border-top: 10px solid #64b8aa; */
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -24,6 +25,7 @@ h1 {
   color: red;
   font-size: 40px;
 } */
+
 /* p::first-line {
   color: red;
 } */
@@ -71,8 +73,15 @@ p {
 
 /* ul li::marker {
   color: yellow;
-  font-size: 40px;
+  font-size: 40px; 
 } */
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 28px;
+  padding: 0;
+}
 
 li {
   font-size: 18px;
@@ -114,12 +123,13 @@ li:last-child {
   list-style: none;
 } */
 
-.un-order {
+.related {
   list-style: none;
+  margin-left: 0;
 }
 
 .container {
-  width: 80%;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -127,7 +137,7 @@ li:last-child {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 20px 40px;
+  padding: 0px 40px;
   /* padding-left: 40px;
   padding-right: 40px;
   padding: 20px 40px;
@@ -140,7 +150,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #64b8aa;
   border-bottom: 5px solid #64b8aa;
-  width: 500px;
+  /* width: 500px; */
+  padding: 50px 40px;
 }
 
 li:first-child {
@@ -164,10 +175,10 @@ a {
   color: #64b8aa;
   text-decoration: none;
 }
-
+/* 
 a:visited {
-  /* color: green; */
-}
+  color: green;
+} */
 
 a:hover {
   color: red;
@@ -251,4 +262,23 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+  margin-top: 40px;
+}
+
+aside {
+  /* background-color: red; */
+  width: 300px;
+  float: right;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: gray;
+  clear: both;
 }
