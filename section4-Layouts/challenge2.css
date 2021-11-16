@@ -109,14 +109,14 @@ h1::before {
 
 /* USING FLOAT */
 
-/* .product-img {
+.product-img {
   float: left;
   margin-right: 40px;
-} */
+}
 
 .price {
   font-size: 26px;
-  /* float: left; */
+  float: left;
 }
 
 .free-shipping {
@@ -124,41 +124,27 @@ h1::before {
   font-size: 13px;
   color: #777;
   font-weight: bold;
-  /* margin-bottom: 15px; */
-  /* float: right; */
-  /* margin-top: 8px; */
+  margin-bottom: 15px;
+  float: right;
+  margin-top: 8px;
 }
 
 .product-description {
-  /* clear: both; */
+  clear: both;
   margin-bottom: 10px;
 }
 
 .product-info {
-  /* width: 243px; */
-  /* float: left; */
+  width: 243px;
+  float: left;
   flex: 243px;
-  /* margin-right: 40px; */
+  margin-right: 40px;
   margin-top: 20px;
 }
 
 .product-details {
-  /* width: 243px; */
-  /* float: left; */
-  flex: 243px;
+  width: 243px;
+  float: left;
+  /* flex: 243px; */
   margin-top: 20px;
 }
-
-/* USING FLEXBOX */
-
-/* .manoj {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-} */
-
-/* .container1 {
-  display: flex;
-  gap: 40px;
-} */
