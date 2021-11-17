@@ -323,11 +323,11 @@ footer {
 
 /* FLEXBOX  LAYOUT */
 
-/* .container1 {
+.container1 {
   display: flex;
   gap: 75px;
   margin-top: 60px;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 article {
@@ -336,11 +336,11 @@ article {
 
 aside {
   flex: 300px;
-} */
+}
 
 /* CSS GRID LAYOUT */
 
-.container {
+/* .container {
   display: grid;
   grid-template-columns: 1fr 300px;
   column-gap: 60px;
@@ -355,4 +355,4 @@ aside {
 footer {
   grid-column: 1 / 3;
   background-color: rgb(229, 226, 226);
-}
+} */
