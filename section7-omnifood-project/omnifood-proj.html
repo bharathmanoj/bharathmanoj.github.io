@@ -4,11 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="omnifood-proj.css" />
     <title>Omni Food</title>
   </head>
   <body>
-    <h1>A healthy meal delivered to your door, every single day</h1>
-    <div class="text">TEST</div>
+    <header class="header">
+      <img src="./logos/omnifood-logo.png" alt="Omnifood-logo" class="logo" />
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a class="link" href="#">Home</a></li>
+          <li><a class="link" href="#">Menu</a></li>
+          <li><a class="link" href="#">Option</a></li>
+          <li><a class="link" href="#">About</a></li>
+          <li><a class="link link-fix-color" href="#">Exit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs. We have delivered 250,000+ meals last year!
+            </p>
+            <a href="#" class="btn btn-full">Start eating well</a>
+            <a href="#" class="btn btn-outline">Learn more &darr;</a>
+
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="./customers/img1.jpg" alt="customer-photo" />
+                <img src="./customers/img2.jpg" alt="customer-photo" />
+                <img src="./customers/img3.jpg" alt="customer-photo" />
+                <img src="./customers/img4.jpg" alt="customer-photo" />
+                <img src="./customers/img5.jpg" alt="customer-photo" />
+                <img src="./customers/img6.jpg" alt="customer-photo" />
+              </div>
+              <p class="text"><span>250,000+</span> meals last year!</p>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <img src="./hero.png" alt="women-eating-food" class="hero-img" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

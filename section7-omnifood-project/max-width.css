@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.text {
+  background-color: red;
+  padding: 100px;
+  /* width: 1000px; */
+  /* max-width: 1000px; */
+
+  max-width: 50rem;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #fff;
+
+  /* 1rem = 16px -> 50 rem = 800px */
+}
