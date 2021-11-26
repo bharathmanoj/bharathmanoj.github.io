@@ -40,6 +40,7 @@ Calories: 650
 NutriScore (Registered): 74
 Average rating: 4.9
 Number reviews: 537
+
 Meal 2: Avocado Salad
 
 Category: Vegan and Paleo
