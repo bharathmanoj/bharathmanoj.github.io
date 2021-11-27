@@ -14,7 +14,10 @@ Brand color: #e67e22
 The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
 
 ###Omnifood features
-Never cook again!: Our subscriptions cover 365 days per year, even including major holidays. Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals. No waste: All our partners only use reusable containers to package all your meals. Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
+Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.
+Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.
+No waste: All our partners only use reusable containers to package all your meals.
+Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
 
 ###How Omnifood works
 [Show big app images]
@@ -48,7 +51,9 @@ Calories: 400
 NutriScore (Registered): 92
 Average rating: 4.8
 Number reviews: 441
+
 We offer a free sample meal
+
 [Create simple form for users to sign up]
 
 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
