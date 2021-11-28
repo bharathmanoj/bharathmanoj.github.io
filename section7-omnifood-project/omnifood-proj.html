@@ -21,10 +21,11 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <link rel="stylesheet" href="omnifood-proj.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Omni Food</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-ope">
       <a href="#"
         ><img
           src="./logos/omnifood-logo.png"
@@ -41,12 +42,17 @@
           <li><a class="link link-fix-color" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
       <!-- section1 -->
 
-      <section class="hero-section">
+      <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -185,7 +191,7 @@
         </div>
 
         <!--MEAL-CARD--1 -->
-        <div class="container grid grid-colums-3">
+        <div class="container grid grid-coloums-3">
           <div class="meal">
             <img
               src="./meals/meal-1.jpg"
@@ -518,7 +524,7 @@
           </p>
         </div>
 
-        <div class="container grid grid-colums-4">
+        <div class="container grid grid-coloums-4">
           <div class="feature">
             <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
             <p class="feature-title">Never cook again!</p>

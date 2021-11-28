@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  overflow-x: hidden;
 }
 
 /* HEADER */
@@ -23,6 +26,7 @@ body {
   justify-content: space-between;
   height: 9.6rem;
   padding: 0 5rem;
+  position: relative;
 }
 
 .logo {
@@ -36,10 +40,13 @@ body {
 .nav-list {
   display: flex;
   list-style-type: none;
+  align-items: center;
   gap: 3.2rem;
 }
 
-.nav-list .link {
+.nav-list,
+.link {
+  /* display: inline-block; */
   text-decoration: none;
   color: #333;
   border-radius: 8px;
@@ -61,9 +68,28 @@ body {
   background-color: #cf711f;
 }
 
+/* mobile button */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* SECTION----1 */
 /* HERO SECTION */
-.hero-section {
+.section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
@@ -94,9 +120,8 @@ body {
   margin-bottom: 4.8rem;
   line-height: 1.5;
 }
-
-.btn:link,
-.btn {
+.btn,
+.btn:link {
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
@@ -295,7 +320,7 @@ body {
   padding: 9.6rem 0;
 }
 
-.grid-colums-3 {
+.grid-coloums-3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -382,6 +407,7 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -556,7 +582,7 @@ strong {
   margin-bottom: 4.8rem;
 }
 
-.grid-colums-4 {
+.grid-coloums-4 {
   grid-template-columns: repeat(4, 1fr);
 }
 
