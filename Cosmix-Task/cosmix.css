@@ -42,7 +42,7 @@ body {
   list-style: none;
   display: flex;
   column-gap: 2rem;
-  padding-right: 8rem;
+  /* padding-right: 8rem; */
   font-weight: 600;
 }
 
@@ -172,9 +172,9 @@ body {
 .premium-box {
   background-color: #d9480f;
   color: #fff;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  justify-content: space-between;
 }
 
 .premium-title {
@@ -401,15 +401,7 @@ body {
   border-bottom: 2px solid red;
 }
 
-.feature-section {
-  position: relative;
-}
-
-.feature-tertiary {
-  margin-bottom: 1.4rem;
-  font-size: 1.4rem;
-  color: #000;
-  font-weight: 500;
+.feature-section {clients-col
   letter-spacing: -1.5px;
 }
 
@@ -486,12 +478,7 @@ body {
   color: #666;
   text-decoration: none;
   transition: all 0.4s;
-}
-
-.feature-list a:hover {
-  background-color: red;
-  color: #fff;
-  /* border-top-left-radius: 7px;
+}clients-col
   border-bottom-left-radius: 7px; */
 }
 
