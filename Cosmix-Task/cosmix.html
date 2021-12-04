@@ -18,7 +18,13 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <link rel="stylesheet" href="cosmix.css" />
+    <link rel="stylesheet" href="cosmix-responsive.css">
     <title>Cosmix.com</title>
   </head>
   <body>
@@ -26,19 +32,19 @@
       <div>
         <div class="home-header">
           <div class="home-logo">
-            <a href="#"><img src="./Logo/01.png" alt="logo-cosmix" /></a>
+            <a href="#footer"><img src="./Logo/01.png" alt="logo-cosmix" /></a>
           </div>
           <nav>
             <ul class="home-list">
               <li><a class="home-link fix-color" href="#">Home</a></li>
-              <li><a class="home-link" href="#">About</a></li>
-              <li><a class="home-link" href="#">Service</a></li>
-              <li><a class="home-link" href="#">Features</a></li>
-              <li><a class="home-link" href="#">Portfolio</a></li>
-              <li><a class="home-link" href="#">Pricing</a></li>
-              <li><a class="home-link" href="#">Team</a></li>
-              <li><a class="home-link" href="#">Blog</a></li>
-              <li><a class="home-link" href="#">Contact</a></li>
+              <li><a class="home-link" href="#about">About</a></li>
+              <li><a class="home-link" href="#service">Service</a></li>
+              <li><a class="home-link" href="#features">Features</a></li>
+              <li><a class="home-link" href="#portfolio">Portfolio</a></li>
+              <li><a class="home-link" href="#pricing">Pricing</a></li>
+              <li><a class="home-link" href="#team">Team</a></li>
+              <li><a class="home-link" href="#blog">Blog</a></li>
+              <li><a class="home-link" href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -60,8 +66,8 @@
     <main>
       <!-- SECTION-1 -->
       <!-- ABOUT--US--SECTION -->
-      <section>
-        <div class="container section-1">
+      <section id="about">
+        <div class="container">
           <div class="about-us">
             <h2 class="heading-secondary">ABOUT <span>US</span></h2>
           </div>
@@ -93,7 +99,7 @@
           <img class="about-image" src="./Aboutus/01.jpg" alt="about-us" />
         </div>
 
-        <div class="container2 premium-box">
+        <div class="container premium-box">
           <div class="premium-title">
             <h4>Premium quality free onepage template</h4>
             <p class="premium-text">
@@ -109,10 +115,10 @@
 
       <!-- SECTION-2 -->
       <!-- OUR-SERVICE--SECTION -->
-      <section>
-        <div class="container section-1">
+      <section id="service">
+        <div class="container">
           <div class="about-us">
-            <h2 class="heading-secondary">OUR SERVI<span>CE</span></h2>
+            <h2 class="our-service-secondary">OUR SERVI<span>CE</span></h2>
           </div>
           <div class="about-text-top">
             <p>
@@ -220,10 +226,10 @@
 
       <!-- section-3 -->
       <!-- AWESOME FEATURES -->
-      <section>
-        <div class="container section-1">
+      <section id="features">
+        <div class="container">
           <div class="about-us">
-            <h2 class="heading-secondary">AWESOME FEATUR<span>ES</span></h2>
+            <h2 class="feature-secondary">AWESOME FEATUR<span>ES</span></h2>
           </div>
           <div class="about-text-top">
             <p>
@@ -269,10 +275,10 @@
 
       <!-- section-4 -->
       <!-- AWESOME FEATURES -->
-      <section class="awesome-section">
-        <div class="container section-1">
+      <section class="awesome-section" id="portfolio">
+        <div class="container">
           <div class="about-us">
-            <h2 class="heading-secondary">AWESOME FEATUR<span>ES</span></h2>
+            <h2 class="features-secondary">AWESOME FEATUR<span>ES</span></h2>
           </div>
           <div class="about-text-top">
             <p>
@@ -337,10 +343,10 @@
       
       <!-- section-5 -->
       <!-- PRICE PACKAGES -->
-      <section>
-        <div class="container section-1">
+      <section id="pricing">
+        <div class="container">
           <div class="about-us">
-            <h2 class="heading-secondary">PRICE PACKAG<span>ES</span></h2>
+            <h2 class="package-secondary">PRICE PACKAG<span>ES</span></h2>
           </div>
           <div class="about-text-top">
             <p>
@@ -354,6 +360,8 @@
         <div class="container section5-col-4">
           <div class="price-package">
             <h3 class="price-tertiary">STARTER</h3>
+            <!-- <p class="price">$39<br><span>per month</span></p> -->
+            <p class="price"><span>$39</span><br>per month</p>
             <ul class="price-list">
               <li class="package-list"><strong>1</strong> DOMAIN</li>
               <li class="package-list"><strong>100GB</strong> DISK SPACE</li>
@@ -370,6 +378,7 @@
               
           <div class="price-package">
             <h3 class="price-tertiary">BUSINESS</h3>
+            <p class="price"><span>$69</span><br>per month</p>
             <ul class="price-list">
               <li class="package-list"><strong>3</strong> DOMAIN</li>
               <li class="package-list"><strong>300GB</strong> DISK SPACE</li>
@@ -386,6 +395,7 @@
           
           <div class="price-package">
             <h3 class="price-tertiary">PRO</h3>
+            <p class="price"><span>$99</span><br>per month</p>
             <ul class="price-list">
               <li class="package-list"><strong>5</strong> DOMAIN</li>
               <li class="package-list"><strong>500GB</strong> DISK SPACE</li>
@@ -402,6 +412,7 @@
           
           <div class="price-package">
             <h3 class="price-tertiary">ULTRA</h3>
+            <p class="price"><span>$199</span><br>per month</p>
             <ul class="price-list">
               <li class="package-list"><strong>10</strong> DOMAIN</li>
               <li class="package-list"><strong>1000GB</strong> DISK SPACE</li>
@@ -418,10 +429,10 @@
         </div>
       </section>
 
-       <!-- section-6 -->
+      <!-- section-6 -->
       <!-- OUR TEAM -->
-      <section>
-        <div class="container section-1">
+      <section id="team">
+        <div class="container">
           <div class="about-us">
             <h2 class="heading-secondary">OUR TE<span>AM</span></h2>
           </div>
@@ -440,7 +451,7 @@
             <div class="our-team">
               <h3 class="author-name">JULIA AMANDA</h3>
               <p class="author-text">
-                Lorem Ipsum is simply dummy text of the printing and
+                Lorem Ipsum is simply dummy text of the printing and  
                 typesetting industry
               </p>
 
@@ -525,18 +536,243 @@
         </div>
 
         <div class="container testimonial-image">
+
+          <div class="quote">
+           <span> &quot;</span>
+          </div>
           <figure>
             <img class="testimonial" src="./Testimonials/03.jpg" alt="testimonial-cuscomer-photo">
           </figure>
-          <p>
+          <p class="testimonial-text">
             Nor again is there anyone who loves or pursues or desires to obtain pain of itself,
-            because it is pain, but because occasionally circumstances occur
+            because it is pain, but because <br> occasionally circumstances occur
           </p>
-          <span>SAM DEEN</span>
-          <p>Web Designer</p>
+          <span class="author-name">SAM DEEN</span>
+          <p class="web-text">Web Designer</p>
+
+          <div class="testimonial-dots">
+            <div class="dots">
+              <button class="dot dot-1">&nbsp;</button>
+              <button class="dot dot-2">&nbsp;</button>
+              <button class="dot dot-1">&nbsp;</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container section6-cols-4">
+          <div class="team-icon"> 
+            <ion-icon name="thumbs-up-outline"></ion-icon>
+            <span class="team-icon-num">5</span>
+            <p class="team-icon-text">Happy Clients</p>
+          </div>
+
+          <div class="team-icon">
+            <ion-icon name="briefcase"></ion-icon>
+            <span class="team-icon-num">943</span>
+            <p class="team-icon-text">Completed Projects</p>
+          </div>
+
+          <div class="team-icon">
+            <ion-icon name="cafe"></ion-icon>
+            <span class="team-icon-num">3788</span>
+            <p class="team-icon-text">Cups of Coffee</p>
+          </div>
+
+          <div class="team-icon">
+            <ion-icon name="code-slash-outline"></ion-icon>
+            <span class="team-icon-num">125121</span>
+            <p class="team-icon-text">Lines of Code</p>
+          </div>
+          </div>
+      </section>
+
+      <!-- section-7 -->
+      <!-- LATEST BLOG -->
+      <section id="blog">
+        <div class="container">
+          <div class="about-us">
+            <h2 class="blog-secondary">LATEST BL<span>OG</span></h2>
+          </div>
+          <div class="about-text-top">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut et dolore magna aliqua.
+            </p>
+            <span>Ut enim ad minim veniam</span>
+          </div>
+        </div>
+
+        <div class="container section7-col-3">
+          <div class="blog">
+            <img src="./Blog/1.jpg" alt="JULIA AMANDA">
+              <p class="jan"><span>JAN</span><br>10<br>2016</p>  
+            <div class="blog-team">
+              <h3 class="blog-title">Sed ut perspiciatis unde omnis</h3>
+              <div class="blog-icon">
+                <ion-icon name="pencil-outline"></ion-icon>
+                <span>John</span>
+                <span><ion-icon name="mail"></ion-icon></span>
+                <span>13</span>
+              </div>
+              <p class="blog-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                blanditiis praesentium voluptatum deleniti atque corrupti quos 
+                dolores et quas molestias excepturi sint occaecati cupiditate.
+              </p>
+
+              <div class="blog-btn">
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <img src="./Blog/2.jpg" alt="JULIA AMANDA">
+            <p class="jan"><span>JAN</span><br>20<br>2016</p>
+            <div class="blog-team">
+              <h3 class="blog-title">Sed ut perspiciatis unde omnis</h3>
+              <div class="blog-icon">
+                <ion-icon name="pencil-outline"></ion-icon>
+                <span>Maria</span>
+                <span><ion-icon name="mail"></ion-icon></span>
+                <span>04</span>
+              </div>
+              <p class="blog-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                blanditiis praesentium voluptatum deleniti atque corrupti quos 
+                dolores et quas molestias excepturi sint occaecati cupiditate.
+              </p>
+
+              <div class="blog-btn">
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <img src="./Blog/3.jpg" alt="JULIA AMANDA">
+            <p class="jan"><span>JAN</span><br>31<br>2016</p>
+            <div class="blog-team">
+              <h3 class="blog-title">Sed ut perspiciatis unde omnis</h3>
+              <div class="blog-icon">
+                <ion-icon name="pencil-outline"></ion-icon>
+                <span>Bear</span>
+                <span><ion-icon name="mail"></ion-icon></span>
+                <span>05</span>
+              </div>
+              <p class="blog-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                blanditiis praesentium voluptatum deleniti atque corrupti quos 
+                dolores et quas molestias excepturi sint occaecati cupiditate.
+              </p>
+
+              <div class="blog-btn">
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+        <div class="container">
+           <div class="clients-col-3">
+            <img src="./clients/2.png" alt="microsoft">
+            <img src="./clients/3.png" alt="deloitte">
+            <img src="./clients/4.png" alt="google">
+            <img src="./clients/5.png" alt="yahoo">
+            <img src="./clients/6.png" alt="discovery">
+           </div>
+        </div>
+      </section>
+
+      <!-- section-8 -->
+      <!-- CONTACT US -->
+      <section id="contact">
+        <div class="container">
+          <div class="about-us">
+            <h2 class="contact-secondary">CONTACT <span>US</span></h2>
+          </div>
+          <div class="about-text-top">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut et dolore magna aliqua.
+            </p>
+            <span>Ut enim ad minim veniam</span>
+          </div>
+        </div>
+
+        <div class="container section8-col-2">
+            <div>
+              <h3 class="contact-title">CONTACT IN<span>FO</span></h3>
+              <p class="contact-address">
+                <ion-icon name="location"></ion-icon>
+                <span>Address: </span>No 123 ,Wallstreet, India
+              </p>
+
+              <p class="contact-address">
+                <ion-icon name="mail"></ion-icon>
+                <span>Mail Us: </span>Info@yourdomain.com
+              </p>
+              
+              <p class="contact-address">
+                <ion-icon name="call"></ion-icon>
+                <span>Phone: </span>+91 123-456-7890
+              </p>
+
+              <p class="contact-address">
+                <ion-icon name="logo-wechat"></ion-icon>
+                <span>Website: </span>www.Cosmix.com
+              </p>
+            </div>
+
+            <div>
+              <form>
+                <div class="form-name-email">
+                  <input type="text" name="name" placeholder="Name" required>
+                  <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                
+                <div class="form-subject">
+                  <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-msg">
+                  <input type="text" name="" placeholder="Enter your message" required>
+                </div>
+                <button class="form-btn">Send Now</button>
+              </form>
+            </div>
+        </div>
+
+        <div class="container2 contact-box">
+          <p class="contact-looking">LOOKING FORWARD TO <span>HEARING</span> FROM YOU!</p>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <div>
+          <h2 class="footer-secondary">Follow Us On</h2>
+        </div>
+      </div>
+
+      <div class="container footer-col-7">
+        <div class="icons">
+          <ion-icon class="footer-icons" name="logo-facebook"></ion-icon>
+          <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+          <!-- <ion-icon name="logo-linkedin"></ion-icon> -->
+          <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+          <ion-icon class="footer-icons" name="logo-google"></ion-icon>
+          <!-- <ion-icon name="logo-youtube"></ion-icon> -->
+          <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+          <ion-icon class="footer-icons" name="logo-instagram"></ion-icon>
+          <!-- <ion-icon name="logo-behance"></ion-icon> -->
+          <ion-icon class="footer-icons" name="logo-twitter"></ion-icon>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer-copyright">
+          <p>&copy; Copyright 2016 Cosmix - Created By : <a class="footer-link" href="#">Template Stock</a></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-<!-- <p class="price">$39<br><span>per month</span></p> -->
