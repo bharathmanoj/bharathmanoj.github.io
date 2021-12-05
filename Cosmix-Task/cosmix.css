@@ -67,9 +67,10 @@ body {
 }
 
 .about-image {
-  /* display: flex; */
+  display: flex;
   align-self: center;
   justify-self: center;
+  height: 20rem;
 }
 
 .header2 {
@@ -94,6 +95,7 @@ body {
   line-height: 1.5;
 }
 
+/* menu button */
 .home-mobile-menu {
   border: none;
   background: none;
@@ -105,7 +107,7 @@ body {
 .home-mobile-icon {
   height: 2.8rem;
   width: 3.8rem;
-  color: #333;
+  color: #999;
 }
 
 .home-mobile-icon[name="close-outline"] {
@@ -128,7 +130,7 @@ body {
   text-align: center;
   font-size: 1rem;
   line-height: 1.7rem;
-  margin-bottom: 3.4rem;
+  margin-bottom: 6.4rem;
   font-weight: 500;
 }
 
@@ -393,6 +395,10 @@ body {
 
 .feature-secondary span {
   color: red;
+}
+
+.icons {
+  border: none;
 }
 
 .feature-icons {
