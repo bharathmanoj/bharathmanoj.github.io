@@ -18,19 +18,19 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    
+      
     <link rel="stylesheet" href="cosmix.css" />
     <link rel="stylesheet" href="cosmix-responsive.css">
     <title>Cosmix.com</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-ope">
       <div>
         <div class="home-header">
           <div class="home-logo">
             <a href="#footer"><img src="./Logo/01.png" alt="logo-cosmix" /></a>
           </div>
-          <nav>
+          <nav class="header-navigation">
             <ul class="home-list">
               <li><a class="home-link fix-color" href="#">Home</a></li>
               <li><a class="home-link" href="#about">About</a></li>
@@ -43,6 +43,11 @@
               <li><a class="home-link" href="#contact">Contact</a></li>
             </ul>
           </nav>
+
+          <button class="home-mobile-menu">
+            <ion-icon class="home-mobile-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="home-mobile-icon" name="close-outline"></ion-icon>
+          </button>
         </div>
 
         <div class="header2">
@@ -248,23 +253,23 @@
 
         <div class="container section1-col-2">
           
-          <div class="awesome-feature">
-            <div class="feature-section">
-              <h3 class="feature-tertiary">Web Design</h3>
-             </div>
+        <div class="awesome-feature">
+          <div class="feature-section">
+            <h3 class="feature-tertiary">Web Design</h3>
+          </div>
             <p class="feature-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type
               specimen book. It has survived not only five centuries, but also the leap into
               electronic typesetting, remaining esseIt was popularised in the 1960s with the
-             release of Letraset sheets containing</p>
-           <p class="feature-text">
-             Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-             PageMaker including versions of Lorem Ipsum."But I must explain to you how all this 
-             mistaken idea of denouncing pleasure and praising pain was born and I will give you
+              release of Letraset sheets containing</p>
+            <p class="feature-text">
+              Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+              PageMaker including versions of Lorem Ipsum."But I must explain to you how all this 
+              mistaken idea of denouncing pleasure and praising pain was born and I will give you
               a complete account of the system, and expound
-           </p>
-          </div>
+            </p>
+        </div>
           <img class="feature-image" src="./Features/01.jpg" alt="feature-image">
         </div>
       </section>
@@ -274,7 +279,7 @@
       <section class="awesome-section" id="portfolio">
         <div class="container">
           <div class="about-us">
-            <h2 class="features-secondary">AWESOME FEATUR<span>ES</span></h2>
+            <h2 class="section4-secondary">AWESOME FEATUR<span>ES</span></h2>
           </div>
           <div class="about-text-top">
             <p>
