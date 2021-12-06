@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 
-  max-width: 130rem;
+  /* max-width: 130rem; */
   margin: 0 auto;
   padding: 0 15rem;
 }
@@ -65,13 +65,12 @@ body {
 .fix-color:hover {
   color: #fff;
 }
-
+/* 
 .about-image {
   display: flex;
   align-self: center;
   justify-self: center;
-  height: 20rem;
-}
+} */
 
 .header2 {
   width: 60%;
@@ -162,7 +161,6 @@ body {
 }
 
 .about-text {
-  font-size: 1rem;
   line-height: 1.7rem;
   margin-bottom: 3rem;
   font-weight: 500;
@@ -303,7 +301,7 @@ body {
 
 .percentage-95 {
   text-align: right;
-  padding: 0rem;
+  /* padding: 0rem; */
   background-color: rgb(219, 219, 219);
   margin-bottom: 1.4rem;
 }
@@ -318,7 +316,7 @@ body {
 
 .percentage-80 {
   text-align: right;
-  padding: 0rem;
+  /* padding: 0rem; */
   background-color: rgb(219, 219, 219);
   margin-bottom: 1.4rem;
 }
@@ -333,7 +331,7 @@ body {
 
 .percentage-60 {
   text-align: right;
-  padding: 0rem;
+  /* padding: 0rem; */
   background-color: rgb(219, 219, 219);
   margin-bottom: 1.4rem;
 }
@@ -348,7 +346,7 @@ body {
 
 .percentage-70 {
   text-align: right;
-  padding: 0rem;
+  /* padding: 0rem; */
   background-color: rgb(219, 219, 219);
   margin-bottom: 1.4rem;
 }
@@ -447,8 +445,10 @@ body {
 }
 
 .section3-col-2 {
-  display: flex;
-  column-gap: 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .feature-text {
@@ -461,7 +461,7 @@ body {
 }
 
 .feature-image {
-  /* display: inline-block; */
+  display: flex;
   align-self: center;
   justify-self: center;
 }
@@ -498,9 +498,9 @@ body {
 .feature-list {
   list-style: none;
   display: flex;
-  height: 45px;
+  /* height: 45px; */
   line-height: 45px;
-  margin-bottom: 4.4rem;
+  margin-bottom: 3.4rem;
   background-color: #e9ecef;
   border-radius: 7px;
 }
@@ -558,7 +558,6 @@ body {
 
 .section3 {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -888,10 +887,10 @@ figure {
 }
 
 .blog-text {
-  text-align: justify;
   line-height: 1.8rem;
   margin-bottom: 1.2rem;
   font-weight: 500;
+  word-break: break-all;
 }
 
 .blog-btn {
@@ -1076,6 +1075,7 @@ figure {
 .footer-copyright {
   text-align: center;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .footer-link {
