@@ -100,8 +100,9 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
+  border: 2px solid #999;
+  border-radius: 6px;
 }
 
 .home-mobile-icon {
