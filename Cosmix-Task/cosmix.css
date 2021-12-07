@@ -117,7 +117,7 @@ body {
 /* section-1 */
 /* about-section */
 .container {
-  max-width: 130rem;
+  /* max-width: 130rem; */
   margin: 0 auto;
   padding: 0 15rem;
 }
