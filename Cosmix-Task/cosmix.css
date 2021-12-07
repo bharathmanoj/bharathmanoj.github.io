@@ -294,8 +294,8 @@ body {
 }
 
 .service-image {
-  /* display: inline-block; */
-  align-self: center;
+  display: flex;
+  /* align-self: center; */
   justify-self: center;
 }
 

@@ -185,8 +185,6 @@
   html,
   body {
     width: 100%;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
   }
   .header {
@@ -274,5 +272,37 @@
   .form-name-email {
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+
+  .section3-col-5 {
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .service-image {
+    height: 24vh;
+  }
+
+  .section2-col-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .section2-col-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .price {
+    transform: translate(80%, -50%);
+  }
+
+  .feature-list a {
+    font-size: 0.5rem;
+  }
+
+  .service-image {
+    height: 24vh;
   }
 }
