@@ -182,11 +182,6 @@
 }
 
 @media (max-width: 425px) {
-  html,
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
   .header {
     padding: 0 1.2rem;
   }
