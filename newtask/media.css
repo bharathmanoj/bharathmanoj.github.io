@@ -16,8 +16,8 @@
   }
 
   .image-container img {
-    width: 110px;
-    height: 110px;
+    width: 15%;
+    height: 140px;
   }
 
   .logos img {
@@ -26,7 +26,29 @@
   }
 
   .section3-h3 {
-    width: 250%;
+    width: 162%;
+  }
+
+  .section2-para {
+    padding: 9rem 17rem;
+  }
+
+  .section3 {
+    width: 70%;
+  }
+
+  .section4-text2 {
+    width: 100%;
+    padding: 0 20%;
+  }
+
+  .logos {
+    column-gap: 9rem;
+  }
+
+  .section4-num {
+    margin-left: 14%;
+    padding: 0;
   }
 }
 
@@ -39,7 +61,7 @@
   }
 
   .section3-h3 {
-    width: 335%;
+    width: 300%;
   }
 
   .grid-column-4 {
@@ -49,11 +71,13 @@
   }
 
   .card3 {
-    margin-top: 12rem;
+    margin-left: 7rem;
+    margin-top: 6rem;
   }
 
   .card4 {
     margin-top: -13rem;
+    margin-right: 7rem;
   }
 
   .section3-colum-4 {
@@ -73,12 +97,12 @@
   }
 
   .section4-num {
-    padding: 4rem 22em;
+    padding: 4rem 4rem;
   }
 
   .image-container {
     display: grid !important;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 185px);
     align-items: center;
     justify-items: center;
     row-gap: 1.4rem;
@@ -87,6 +111,137 @@
   .image-container img {
     width: 100%;
     height: 100%;
+  }
+
+  .text-section2 {
+    font-size: 2.6rem;
+  }
+
+  .section3-text {
+    font-size: 2rem;
+  }
+
+  .section3-text {
+    font-size: 2rem;
+  }
+
+  .heading {
+    font-size: 5.8rem;
+  }
+
+  .section1-secondary {
+    font-size: 3.2rem;
+    margin-top: 11rem;
+  }
+
+  .section1-logo {
+    height: 12rem;
+  }
+
+  .section2-secondary {
+    font-size: 6.6rem;
+  }
+
+  .card1 {
+    margin-left: 7rem;
+    margin-top: -7rem;
+  }
+
+  .card2 {
+    margin-right: 7rem;
+  }
+
+  .section2-text {
+    font-size: 2.3rem;
+    width: 56%;
+  }
+
+  .more-btn {
+    margin-bottom: 3rem;
+  }
+
+  .section2-icon {
+    margin-top: 3rem;
+  }
+
+  .section3-teritery {
+    font-size: 3.8rem;
+  }
+
+  .more-btn {
+    font-size: 2.4rem;
+  }
+
+  .section2-para {
+    padding: 13rem 12rem;
+  }
+
+  .section3 {
+    margin: 5rem auto;
+  }
+
+  .section3-secondary {
+    font-size: 7.6rem;
+  }
+  .section3-text,
+  .section3-text2 {
+    font-size: 3rem;
+  }
+
+  .section3-title {
+    font-size: 2.7rem;
+  }
+  .list-items {
+    font-size: 2.6rem;
+  }
+
+  .slider-text {
+    font-size: 3rem;
+  }
+
+  .director-slider {
+    font-size: 1.2rem;
+  }
+
+  .section4-secondary {
+    font-size: 6.2rem;
+  }
+
+  .section4-text {
+    font-size: 2.4rem;
+  }
+
+  .text-section-4 {
+    column-gap: 80rem;
+  }
+
+  .section4-text2 {
+    padding: 0 12%;
+    font-size: 2.2rem;
+  }
+
+  .question1 {
+    column-gap: 73rem;
+    font-size: 2rem;
+  }
+
+  .question2 {
+    column-gap: 74rem;
+
+    font-size: 2rem;
+  }
+
+  .question3 {
+    column-gap: 70.4rem;
+    font-size: 2rem;
+  }
+
+  .footer-text {
+    font-size: 1.6rem;
+  }
+
+  .text-link {
+    font-size: 1.6rem;
   }
 }
 
@@ -99,6 +254,10 @@
 @media (max-width: 425px) {
   html {
     font-size: 36%;
+  }
+
+  .sample {
+    text-align: center;
   }
 
   .search-icon {
@@ -275,15 +434,15 @@
   }
 
   .question1 {
-    column-gap: 7rem;
+    column-gap: 13rem;
   }
 
   .question2 {
-    column-gap: 8.6rem;
+    column-gap: 13.6rem;
   }
 
   .question3 {
-    column-gap: 4rem;
+    column-gap: 9rem;
   }
 
   .logos {
@@ -308,7 +467,7 @@
   }
 
   .rock-street {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     margin-bottom: 5rem;
     line-height: 1.4;
   }
@@ -336,5 +495,34 @@
 
   .text-link {
     font-size: 1.6rem;
+  }
+
+  .section4-num {
+    margin-left: 0%;
+  }
+
+  .num-text {
+    width: 100%;
+  }
+
+  .card1 {
+    margin-left: 0rem;
+  }
+
+  .card2 {
+    margin-right: 0rem;
+  }
+
+  .card3 {
+    margin-left: 0rem;
+  }
+
+  .card4 {
+    margin-right: 0rem;
+  }
+
+  .header-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+      url(./1.jpeg);
   }
 }
