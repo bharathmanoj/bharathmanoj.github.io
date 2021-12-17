@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output javascript</title>
+  </head>
+  <body>
+    <h1>Using inner HTML</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo
+      voluptate magni, provident facere quasi quas eligendi non, vitae sint
+      praesentium distinctio, perspiciatis molestiae reprehenderit aliquid modi
+      debitis. Provident, et?
+    </p>
+
+    <p id="inner"></p>
+
+    <script>
+      document.getElementById("inner").innerHTML = 100 + 230;
+    </script>
+
+    <h1>Using Document write</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo
+      voluptate magni, provident facere quasi quas eligendi non, vitae sint
+      praesentium distinctio, perspiciatis molestiae reprehenderit aliquid modi
+      debitis. Provident, et?
+    </p>
+
+    <script>
+      document.write("hello");
+    </script>
+
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+    <h1>window alert</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo
+      voluptate magni, provident facere quasi quas eligendi non, vitae sint
+      praesentium distinctio, perspiciatis molestiae reprehenderit aliquid modi
+      debitis. Provident, et?
+    </p>
+
+    <script>
+      // window.alert("hello javascript");
+
+      alert("hello");
+    </script>
+
+    <h1>console</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo
+      voluptate magni, provident facere quasi quas eligendi non, vitae sint
+      praesentium distinctio, perspiciatis molestiae reprehenderit aliquid modi
+      debitis. Provident, et?
+    </p>
+
+    <script>
+      console.log("hello everyone");
+    </script>
+
+    <h1>window print</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo
+      voluptate magni, provident facere quasi quas eligendi non, vitae sint
+      praesentium distinctio, perspiciatis molestiae reprehenderit aliquid modi
+      debitis. Provident, et?
+    </p>
+
+    <button type="button" onclick="window.print()">Print this page</button>
+  </body>
+</html>
