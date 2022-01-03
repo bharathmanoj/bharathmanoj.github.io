@@ -4,15 +4,12 @@
 //   name: "Rajesh",
 //   age: 25,
 //   gender: "male",
-//   // user.likes birds=true; // multiword properties doesn't work dot access
+//   // user.likes birds=true; //
 //   "likes birds": true,
 // };
-// alert(user.name);
-// alert(user.age);
-// alert(user.gender);
-// user.isAdmin = true;
-// alert(user.isAdmin);
-// console.log(user);
+// console.log(user.name);
+// console.log(user.age);
+// console.log(user.gender);
 // delete user.age;
 // console.log(user);
 
@@ -213,6 +210,19 @@
 //   console.log(code);
 // }
 
+// let codes = {
+//   six: "Germany",
+//   five: "Switzerland",
+//   four: "Great Britain",
+//   three: "USA",
+//   two: "hello",
+//   one: "hello",
+// };
+
+// for (let code in codes) {
+//   console.log(code);
+// }
+
 // console.log(String(Math.trunc(Number("49.3414")))); //remove decimal numbers
 // console.log(String(Math.trunc(Number("+3.8498"))));
 // console.log(String(Math.trunc(Number("1.3882"))));
@@ -222,3 +232,42 @@
 // console.log(String(Math.trunc(Number("23.3414"))));
 // console.log(String(Math.trunc(Number("+334.8498"))));
 // console.log(String(Math.trunc(Number("112.3882"))));
+
+// let user = {
+//   name: "Manoj",
+//   Surname: "Bharath",
+// };
+
+// user.age = 21;
+
+// for (let prop in user) {
+//   console.log(prop);
+// }
+
+// let codes = {
+//   "+49": "Germany",
+//   "+41": "Switzerland",
+//   "+44": "Great Britain",
+//   "+1": "USA",
+// };
+
+// for (let code in codes) {
+//   console.log(+code);
+// }
+
+// let codes = {
+//   "+49": "Germany",
+//   "+41": "Switzerland",
+//   "+44": "Great Britain",
+//   "+1": "USA",
+//   50: "Germany",
+//   41: "Switzerland",
+//   44: "Great Britain",
+//   1: "USA",
+//   3: "three",
+//   9: "nine",
+// };
+
+// for (let code in codes) {
+//   console.log(+code);
+// }

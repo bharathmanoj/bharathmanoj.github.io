@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM HTML</title>
+  </head>
+  <body>
+    <!-- Changing HTML Content -->
+
+    <h1>Changing HTML Content</h1>
+    <p id="para">hello</p>
+
+    <script>
+      document.getElementById("para").innerHTML = "Good Morning";
+    </script>
+
+    <!-- <script>
+      var element = document.getElementById("para");
+      element.innerHTML = "Good Afternoon";
+    </script> -->
+
+    <!-- Changing the Value of an Attribute -->
+
+    <h2>Changing the Value of an Attribute</h2>
+    <img src="./chair.jpeg" alt="brown-chair" id="chair-img" />
+    <p id="name">hello</p>
+
+    <script>
+      document.getElementById("chair-img").src = "./duke.jpeg";
+    </script>
+
+    <script>
+      document.getElementById("name").id = "manoj";
+    </script>
+
+    <!-- Dynamic HTML Content -->
+
+    <h2>Dynamic HTML Content</h2>
+    <p id="date"></p>
+
+    <script>
+      document.getElementById("date").innerHTML = "Date : " + Date();
+    </script>
+
+    <!-- Document Write -->
+
+    <h2>Document Write</h2>
+
+    <script>
+      document.write("Date  : ", Date());
+    </script>
+  </body>
+</html>

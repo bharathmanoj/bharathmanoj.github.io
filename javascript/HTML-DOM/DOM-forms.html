@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM forms</title>
+    <script src="DOM-forms.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>DOM Forms</h1>
+      <form onsubmit="return validate()" action="DOM-intro.html">
+        <label>Name: </label>
+        <input id="uname" type="text" placeholder="username" /><br /><br />
+        <label>Password: </label>
+        <input id="pass" type="password" placeholder="password" /><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <br /><br />
+
+    <div>
+      <form
+        name="myForm"
+        action="DOM-elements.html"
+        onsubmit="return validateForm()"
+      >
+        <input type="text" name="fname" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div>
+      <h2>JavaScript Can Validate Numeric Input</h2>
+
+      <p>Please input a number between 1 and 10:</p>
+
+      <form>
+        <label>Enter number: </label>
+        <input id="number" placeholder="Enter 1 to 40" />
+      </form>
+      <br />
+
+      <button type="button" onclick="numbervalid()">Submit</button>
+
+      <p id="demo"></p>
+    </div>
+
+    <div>
+      <h2>Automatic html form validation</h2>
+      <form>
+        <div>
+          <label>Name: </label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <br />
+
+        <div>
+          <label>Password: </label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label>Confirm Password: </label>
+          <input
+            type="Confirm password"
+            name="confirm password"
+            placeholder="confirm password"
+          />
+        </div>
+        <br />
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

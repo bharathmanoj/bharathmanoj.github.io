@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Node Lists</title>
+  </head>
+  <body>
+    <!-- The HTML DOM NodeList Object -->
+    <h1>JavaScript HTML DOM</h1>
+    <p>Hello World 1</p>
+    <p>Hello World 2</p>
+    <p>Hello Norway 3</p>
+    <p id="demo"></p>
+
+    <script>
+      const myNodelist = document.querySelectorAll("p");
+
+      document.getElementById("demo").innerHTML =
+        "The innerHTML of the second paragraph is: " + myNodelist[2].innerHTML;
+    </script>
+
+    <!-- HTML DOM Node List Length -->
+    <h2>HTML DOM Node List Length</h2>
+    <span>JavaScript HTML DOM</span><br /><br />
+    <span>Hellow World!</span><br /><br />
+    <span>Hellow Norway!</span><br /><br />
+    <span id="demo1"></span>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+      // const myNodelist1 = document.querySelectorAll("span");
+
+      // document.getElementById("demo1").innerHTML =
+      //   "This document contains " + myNodelist1.length + " paragraphs.";
+
+      function myFunction() {
+        const myNodelist = document.querySelectorAll("span");
+        for (let i = 0; i < myNodelist.length; i++) {
+          myNodelist[i].style.color = "blue";
+        }
+      }
+    </script>
+
+    <!-- Using Functions -->
+    <p>Hello World!</p>
+    <p>Hello Norway!</p>
+    <p>Click the button to change the color of all p elements.</p>
+
+    <button onclick="myFunction1()">Try it</button>
+
+    <script>
+      function myFunction1() {
+        const myNodelist = document.querySelectorAll("p");
+        for (let i = 0; i < myNodelist.length; i++) {
+          myNodelist[i].style.color = "red";
+        }
+      }
+    </script>
+  </body>
+</html>

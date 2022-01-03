@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Events</title>
+    <link rel="stylesheet" href="./DOM-events.css" />
+  </head>
+  <body>
+    <h1>Reacting to Events</h1>
+    <p onclick="this.innerHTML='HEllO EVERYONE'">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi eligendi
+      molestiae maxime ullam error illo. Beatae, minima aut culpa corrupti, ipsa
+      quisquam inventore consequuntur numquam possimus explicabo vel sequi
+      aliquid.
+    </p>
+
+    <h2 onclick="changecontent(this)">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facilis
+      dolore quaerat, impedit autem laudantium vitae atque optio cupiditate
+      totam porro, quia hic maiores, sint accusantium. Eius labore laudantium
+      animi!
+    </h2>
+
+    <script>
+      function changecontent(hello) {
+        hello.innerHTML =
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+      }
+    </script>
+
+    <div>
+      <h2>JavaScript HTML Events</h2>
+      <p>Click the button to display the date.</p>
+
+      <button onclick="displayDate()">The time is?</button>
+
+      <script>
+        function displayDate() {
+          document.getElementById("demo").innerHTML = Date();
+        }
+      </script>
+
+      <p id="demo"></p>
+    </div>
+
+    <div>
+      <img src="./chair.jpeg" onload="loadImage()" />
+
+      <script>
+        function loadImage() {
+          alert("Image is loaded");
+        }
+      </script>
+
+      <div>
+        <h2>JavaScript HTML Events</h2>
+        <label>First Name: </label>
+        <input type="text" id="hello" onchange="upperCase()" /><br /><br />
+        <label>Last Name: </label>
+        <input type="text" id="fname" onchange="upperCase()" />
+        <script>
+          function upperCase() {
+            var x = document.getElementById("hello");
+            var y = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+            y.value = y.value.toUpperCase();
+          }
+        </script>
+      </div>
+
+    <div>
+      <p
+        onmouseover="mouseOver(this)"
+        onmouseout="mouseOut(this)"
+        class="mouse"
+      >
+        HELLO EVERYONE
+      </p>
+
+      <script>
+        function mouseOver(a) {
+          a.innerHTML = "Thank You";
+        }
+
+        function mouseOut(b) {
+          b.innerHTML = "Mouse Over Me";
+        }
+      </script>
+    </div>
+
+    <div>
+      <p onmousedown="mDown(this)" onmouseup="mUp(this)" class="click-mouse">
+        Click Here
+      </p>
+
+      <script>
+        function mDown(hello1) {
+          hello1.style.backgroundColor = "#1ec5e5";
+          hello1.innerHTML = "HELLO EVERYONE";
+        }
+
+        function mUp(hello1) {
+          hello1.style.backgroundColor = "#D94A38";
+          hello1.innerHTML = "Thank You";
+        }
+      </script>
+    </div>
+  </body>
+</html>

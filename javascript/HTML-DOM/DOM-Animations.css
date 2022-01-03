@@ -1,0 +1,13 @@
+#container {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  position: relative;
+}
+
+#redbox {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  position: absolute;
+}

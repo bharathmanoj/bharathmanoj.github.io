@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM-document Object</title>
+    <script src="DOM-document.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Finding HTML Elements</h1>
+      <p id="para1">This is paragraph</p>
+      <p class="para2">Find element by class name</p>
+      <span>Hello</span>
+
+      <script>
+        // document.getElementById("para1").innerHTML =
+        //   "Find an element by element id";
+
+        document.getElementsByClassName("para2").innerHTML =
+          "Find element by class name";
+
+        document.getElementsByTagName("span").innerHTML =
+          "Find elements by tag name";
+      </script>
+    </div>
+
+    <div>
+      <!-- 	Change the inner HTML of an element -->
+      <h2>Changing HTML Elements</h2>
+      <p id="demo">Change the inner HTML of an element</p>
+
+      <button onclick="getHtml()">Click on</button> <br /><br />
+
+      <!-- change the attribute value of an html element -->
+      <form>
+        <input type="text" id="Name" value="Enter your Name" />
+      </form>
+
+      <script>
+        document.getElementById("Name").setAttribute("value", "First Name");
+      </script>
+    </div>
+
+    <div>
+      <h2>Adding and Deleting Elements</h2>
+      <nav>
+        <ol id="ord-list">
+          <li>APPLE</li>
+          <li>ORANGE</li>
+          <li>BANANA</li>
+          <li>GRAPES</li>
+        </ol>
+      </nav>
+      <button onclick="removeelement()">Remove list</button>
+    </div>
+
+    <div></div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM CSS</title>
+    <script src="DOM-css.js"></script>
+  </head>
+  <body>
+    <h2>Changing HTML Style</h2>
+    <p id="demo"></p>
+
+    <button onclick="getHtml()">Click on</button> <br /><br />
+
+    <p id="p2">Hello World!</p>
+    <script>
+      document.getElementById("p2").style.color = "blue";
+    </script>
+
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+
+    <script>
+      // document
+      //   .querySelectorAll("p")
+      //   .forEach((element) => (element.style.backgroundColor = "red"));
+
+      // USING FOR LOOP
+      // var list = document.getElementsByTagName("p");
+      // for (var i = 0; i < list.length; i++) {
+      //   list[i].style.color = "red";
+      // }
+
+      var list = document.getElementsByTagName("p");
+      for (var i = 0; i < list.length; i++) {
+        if (i % 2) {
+          list[i].style.color = "red";
+        } else {
+          list[i].style.color = "blue";
+        }
+      }
+    </script>
+
+    <h1 id="btn">My Heading 1</h1>
+
+    <button
+      type="button"
+      onclick="document.getElementById('btn').style.color = 'red'"
+    >
+      Click Me!
+    </button>
+
+    <div>
+      <p id="manoj">HEllo everyone</p>
+    </div>
+
+    <script>
+      document.getElementById("manoj").style.cssText =
+        "margin:50px;background-color:blue;font-size:40px; padding:20px; text-align:center; color:white; ";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Nodes</title>
+  </head>
+  <body>
+    <!-- Creating New HTML Elements (Nodes) -->
+    <h1>Add a new HTML Element.</h1>
+
+    <div id="div1">
+      <p id="p1">This is a paragraph.</p>
+      <p id="p2">This is another paragraph.</p>
+    </div>
+
+    <script>
+      var para = document.createElement("p");
+      var node = document.createTextNode("This is new.");
+      para.appendChild(node);
+      var element = document.getElementById("div1");
+      element.appendChild(para);
+    </script>
+
+    <!-- Creating new HTML Elements - insertBefore() -->
+    <div>
+      <h2>Creating new HTML Elements - insertBefore()</h2>
+      <div id="div1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+      </div>
+
+      <script>
+        const para1 = document.createElement("p");
+        const node1 = document.createTextNode("This is new.");
+        para.appendChild(node1);
+
+        const element1 = document.getElementById("div1");
+        const child = document.getElementById("p1");
+        element1.insertBefore(para1, child);
+      </script>
+    </div>
+
+    <!-- Remove HTML Elements -->
+    <div>
+      <h2>Remove HTML Elements</h2>
+      <div>
+        <p id="para1">This is a paragraph.</p>
+        <p id="para2">This is another paragraph.</p>
+      </div>
+
+      <button onclick="removebtn()">Remove</button>
+
+      <script>
+        function removebtn() {
+          document.getElementById("para1").remove();
+        }
+      </script>
+    </div>
+
+    <!-- Removing a Child Node -->
+    <div>
+      <h2>Remove Child Element</h2>
+
+      <div id="container">
+        <p id="hi">This is a paragraph.</p>
+        <p id="hi1">This is another paragraph.</p>
+      </div>
+
+      <script>
+        const parent = document.getElementById("container");
+        const child1 = document.getElementById("hi");
+        parent.removeChild(child1);
+      </script>
+    </div>
+
+    <!-- Replace an HTML Element -->
+    <h2>Replace an HTML Element.</h2>
+
+    <div id="container1">
+      <p id="new">This is a paragraph.</p>
+      <p id="new2">This is a paragraph.</p>
+    </div>
+
+    <script>
+      const parent1 = document.getElementById("container1");
+      const child2 = document.getElementById("new");
+      const para2 = document.createElement("p");
+      const node2 = document.createTextNode("Hello Everyone");
+      para2.appendChild(node2);
+      parent1.replaceChild(para2, child2);
+    </script>
+  </body>
+</html>

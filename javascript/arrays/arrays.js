@@ -55,7 +55,7 @@
 // fruits.unshift("banana");
 // alert(fruits);
 
-//add push and unshift multiple elements at once
+// add push and unshift multiple elements at once
 // let fruits = ["orange"];
 
 // fruits.push("apple", "grapes");
@@ -91,11 +91,12 @@
 //   console.log(arr[i]);
 // }
 
-let arr = [1, 2, 3, 4, 5, 6];
+// let arr = [1, 2, 3, 4, 5, 6];
 
-for (let i = 0; i <= 4; i++) {
-  console.log(arr[i]);
-}
+// for (let i = 0; i <= 4; i++) {
+//   console.log(arr[i]);
+// }
+
 // we have to remove variable and array
 // for (let m = 1; m <= 6; m++) {
 //   console.log("Question", m);
@@ -140,17 +141,17 @@ for (let i = 0; i <= 4; i++) {
 // alert(arr.length);
 
 // MULTIDIMENTIONAL ARRAYS //////////
-// let matrix = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ];
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 // alert(matrix[0][0]);
 // alert(matrix[0][1]);
 // alert(matrix[0][2]);
 // alert(matrix[1][0]);
 // alert(matrix[1][1]);
-// alert(matrix[1][2]);
+alert(matrix[1][2]);
 // alert(matrix[2][0]);
 // alert(matrix[2][1]);
 // alert(matrix[2][2]);
@@ -160,7 +161,6 @@ for (let i = 0; i <= 4; i++) {
 //   [4, 6],
 //   [7, 8],
 // ];
-
 // console.log(matrix[1][1]);
 
 // let matrix = [
@@ -210,3 +210,72 @@ for (let i = 0; i <= 4; i++) {
 
 // person[99999] = 5;
 // person.age = 25;
+
+// if (condition_1)
+// statement_1
+
+// [else if (condition_2)
+
+// statement_2]
+
+// ...
+
+// [else if (condition_n_1)
+
+// statement_n_1]
+
+// [else
+
+// statement_n]
+
+// function marksgrade() {
+//   if (document.form1.text1.value > 50) console.log("Marks is greater than 50.");
+//   else console.log("Marks is less than or equal to 50.");
+// }
+
+// if (marks > 90) {
+//   //BLOCK CODE
+//   // Statements
+//   // AA if marks is greater than 90
+//   console.log("student pass");
+// } else if (marks > 80 && marks <= 90) {
+//   // BLOCK CODE
+//   // Statements
+//   // AB if marks is greater than 80 and less than or equal tO 90
+//   console.log("student pass");
+// } else if (marks > 70 && marks <= 80) {
+//   // BLOCK CODE
+//   // Statements
+//   // BB if marks is greater than 70 and less than or equal tO 80
+//   console.log("student pass");
+// } else if (marks > 60 && marks <= 70) {
+//   // BLOCK CODE
+//   // Statements
+//   // BC if marks is greater than 60 and less than or equal tO 70
+//   console.log("student pass");
+// } else if (marks > 50 && marks <= 60) {
+//   // BLOCK CODE
+//   // Statements
+//   // CC if marks is greater than 50 and less than or equal tO 60
+//   console.log("student pass");
+// } else if (marks > 40 && marks <= 50) {
+//   // BLOCK CODE
+//   // Statements
+//   // CD if marks is greater than 40 and less than or equal tO 50
+//   console.log("student pass");
+// } else if (marks > 30 && marks <= 40) {
+//   // BLOCK CODE
+//   // Statements
+//   // DD if marks is greater than 30 and less than or equal tO 40
+//   console.log("student pass");
+// } else if (marks <= 30) {
+//   // BLOCK CODE
+//   // Statements
+//   // FF if marks is less than or equal tO 30
+//   console.log("student pass");
+// }
+
+// var a = 10;
+// var b = 10;
+// var total = a + b;
+// console.log(total);
