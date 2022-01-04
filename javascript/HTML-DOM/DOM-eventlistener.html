@@ -28,6 +28,7 @@
       </script>
     </div>
 
+    <!-- Add an Event Handler to an Element -->
     <div>
       <h2>Add an Event Handler to an Element</h2>
       <p>
@@ -65,8 +66,9 @@
       </script>
     </div>
 
+    <!-- Add Many Event Handlers to the Same Element -->
     <div>
-      <h2>JavaScript addEventListener()</h2>
+      <h2>Add Many Event Handlers to the Same Element</h2>
 
       <p>
         This example uses the addEventListener() method to add two click events
@@ -122,8 +124,9 @@
       </script>
     </div>
 
+    <!-- Add an Event Handler to the window Object -->
     <div>
-      <h2>JavaScript addEventListener()</h2>
+      <h2>Add an Event Handler to the window Object</h2>
 
       <p>
         This example uses the addEventListener() method on the window object.
@@ -139,6 +142,68 @@
         window.addEventListener("resize", function () {
           document.getElementById("demo2").innerHTML = Math.random();
         });
+      </script>
+    </div>
+
+    <!-- Passing Parameters -->
+    <div>
+      <h2>Passing Parameters</h2>
+
+      <p>
+        This example demonstrates how to pass parameter values when using the
+        addEventListener() method.
+      </p>
+
+      <p>Click the button to perform a calculation.</p>
+
+      <button id="myBton">Try it</button>
+
+      <p id="demoo"></p>
+
+      <script>
+        let p11 = 5;
+        let p12 = 7;
+        document
+          .getElementById("myBton")
+          .addEventListener("click", function () {
+            myFun(p11, p12);
+          });
+
+        function myFun(a, b) {
+          document.getElementById("demoo").innerHTML = a + b;
+        }
+      </script>
+    </div>
+
+    <!-- The removeEventListener() method -->
+    <div>
+      <h2>RemoveEventListener() method</h2>
+
+      <div id="myDIV1">
+        <p>
+          This div element has an onmousemove event handler that displays a
+          random number every time you move your mouse inside this orange field.
+        </p>
+        <p>Click the button to remove the div's event handler.</p>
+        <button onclick="removeHandler()" id="myBtn">Remove</button>
+      </div>
+
+      <p id="demooo"></p>
+
+      <script>
+        document
+          .getElementById("myDIV1")
+          .addEventListener("mousemove", myFunction);
+
+        function myFunction() {
+          document.getElementById("demooo").innerHTML = Math.random();
+        }
+
+        function removeHandler() {
+          document
+            .getElementById("myDIV1")
+            .removeEventListener("mousemove", myFunction);
+        }
       </script>
     </div>
   </body>

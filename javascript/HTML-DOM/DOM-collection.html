@@ -59,14 +59,36 @@
         function myFunction() {
           const myCollection = document.getElementsByTagName("p");
           for (let i = 0; i < myCollection.length; i++) {
-            myCollection[i].style.color = "red";
+            myCollection[i].style.color = "white";
+            myCollection[i].style.backgroundColor = "black";
+            myCollection[i].style.padding = "2rem";
+            myCollection[i].style.fontSize = "1.6rem";
+            myCollection[i].style.textAlign = "center";
           }
         }
+      </script>
+    </div>
 
-        // function myFunction() {
-        //   const myCollection = document.getElementById("HELLO");
-        //   myCollection.style.color = "green";
-        // }
+    <div>
+      <p id="lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        explicabo cumque, nemo eveniet quam minima quod a enim sed ab
+        architecto! Excepturi harum hic aut, aliquam quisquam et dolor ducimus?
+      </p>
+      <p>Hello Everyone</p>
+
+      <button onclick="funname()">Click On</button>
+
+      <script>
+        function funname() {
+          let varname = document.getElementById("lorem");
+          varname.style.color = "white";
+          varname.style.backgroundColor = "gray";
+          varname.style.padding = "2rem";
+          varname.style.fontSize = "1.4rem";
+          varname.style.fontFamily = "sans-serif";
+          varname.style.lineHeight = "1.6";
+        }
       </script>
     </div>
   </body>
