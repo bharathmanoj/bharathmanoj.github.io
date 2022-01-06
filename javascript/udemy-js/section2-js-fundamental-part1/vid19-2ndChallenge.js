@@ -32,3 +32,9 @@ console.log(BMIjohn1);
 const markHigherBMI1 = BMIMark1 >= BMIjohn1;
 
 console.log(markHigherBMI1);
+
+if (BMIMark < BMIjohn) {
+  console.log(`BMIMark (${BMIMark}) is greater than BMIJohns (${BMIjohn})`);
+} else {
+  console.log(`BMIJohns (${BMIjohn}) is less than BMIMarks (${BMIMark})`);
+}
