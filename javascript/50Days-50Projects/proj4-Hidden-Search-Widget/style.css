@@ -11,7 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 
@@ -20,7 +19,7 @@ body {
   height: 50px;
 }
 
-.search .input {
+.input {
   background-color: #fff;
   border: 0;
   font-size: 18px;
