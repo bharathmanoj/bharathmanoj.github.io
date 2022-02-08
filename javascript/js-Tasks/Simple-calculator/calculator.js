@@ -1,0 +1,23 @@
+function result() {
+  var x = Number(document.getElementById("input--1").value);
+  var y = Number(document.getElementById("input--2").value);
+  var z = 0;
+
+  // addition, Subtraction, Multiplication, Division
+
+  if (document.getElementById("addition").checked) {
+    z = x + y;
+  } else if (document.getElementById("Subtraction").checked) {
+    z = x - y;
+  } else if (document.getElementById("Multiplication").checked) {
+    z = x * y;
+  } else {
+    //if (document.querySelector(".Division").checked) {
+    z = x / y;
+  }
+
+  document.getElementById("sum").innerHTML = "Sum is: " + String(z);
+  document.getElementById("sum").style.display = "block";
+  document.getElementById("sum").style.marginBottom = "2rem";
+  document.getElementById("sum").style.transition = "0.5s";
+}

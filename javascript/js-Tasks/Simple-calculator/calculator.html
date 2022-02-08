@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculator.css" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="sample">
+      <h1>Sample calculator</h1>
+
+      <form>
+        <input type="text" id="input--1" /> <br /><br />
+
+        <input
+          type="radio"
+          name="radio"
+          value="add"
+          class="calc"
+          id="addition"
+          checked
+        />Addition(+)
+
+        <input
+          type="radio"
+          name="radio"
+          value="subtract"
+          class="calc"
+          id="Subtraction"
+        />Subtraction(-)
+
+        <input
+          type="radio"
+          name="radio"
+          value="multiply"
+          class="calc"
+          id="Multiplication"
+        />Multiplication(*)
+
+        <input
+          type="radio"
+          name="radio"
+          value="divide"
+          class="calc"
+          id="Division"
+        />Division(/) <br /><br />
+
+        <input type="text" id="input--2" class="hello" />
+
+        <span id="sum"></span>
+        <button type="button" onclick="result()">Calculate</button>
+      </form>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
