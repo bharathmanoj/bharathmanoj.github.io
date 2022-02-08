@@ -74,6 +74,7 @@ btnRoll.addEventListener("click", function () {
 
 btnHold.addEventListener("click", function () {
   if (playing) {
+    //1. Add crt score to active player's score
     scores[activePlayer] += currentScore;
     // console.log(scores[activePlayer]);
 
