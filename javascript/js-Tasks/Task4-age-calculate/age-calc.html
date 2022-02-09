@@ -6,32 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./age-calc.css" />
 
-    <title>Age calculate</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>Age Calculate</h1>
+    <div class="container">
+      <h1>Age Calculate</h1>
 
-    <div class="mainContainer">
-      <h2>Calculate your Age in Seconds, Minutes, Hours and Days!</h2>
+      <input type="date" id="dob" />
 
-      <p class="inputFields">
-        <label>Enter your age:</label>
-        <input type="date" id="validateAge" />
-        <input
-          type="submit"
-          value="Click me!"
-          id="submit"
-          onclick="calculateMyAge()"
-        />
-      </p>
-      <div class="resultBlock">
-        <!-- <p>Days = <span id="days"></span></p>
-        <p>Hours = <span id="hours"></span></p> -->
-        <p>Age in Minutes = <span id="minutes"></span></p>
-        <p>Age in Seconds = <span id="seconds"></span></p>
-      </div>
+      <button class="btn1" id="sumbit">Calculate</button>
     </div>
 
-    <script src="./age-calc.js"></script>
+    <span id="min" class="minute"></span>
+    <span id="sec" class="second"></span>
+
+    <script src="age-calc.js"></script>
   </body>
 </html>
