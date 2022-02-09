@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./finding-num.css" />
+
+    <title>Finding Numbers</title>
+  </head>
+  <body>
+    <h1>Finding largest, smallest, even, odd, positive, negative Numbers</h1>
+    <form>
+      <label>Finding Number: </label>
+      <input type="text" name="Text" id="finding-num" checked /><br /><br />
+      <input type="button" class="btn" value="Find" onclick="groupNumbers()" />
+
+      <!-- <button class="btn" type="submit" onclick="groupNumbers()">Find</button> -->
+
+      <p id="largest-num" class="para"></p>
+      <p id="smallest-num" class="para"></p>
+      <p id="even-num" class="para"></p>
+      <p id="odd-num" class="para"></p>
+      <p id="positive-num" class="para"></p>
+      <p id="negative-num" class="para"></p>
+    </form>
+
+    <script src="./finding-num.js"></script>
+  </body>
+</html>

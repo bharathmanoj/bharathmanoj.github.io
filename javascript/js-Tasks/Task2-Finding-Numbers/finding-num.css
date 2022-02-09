@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  /* background-color: #555; */
+  /* color: #fff; */
+}
+
+h1 {
+  margin-bottom: 3.2rem;
+}
+
+#finding-num {
+  padding: 6px 12px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.btn {
+  padding: 4px 18px;
+  font-size: 1rem;
+  letter-spacing: 1.6px;
+  margin-bottom: 2.4rem;
+}
+
+.para {
+  margin-bottom: 0.8rem;
+  transition: 0.4s ease;
+}

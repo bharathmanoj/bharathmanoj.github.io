@@ -1,12 +1,14 @@
 function count1(text) {
-  const letters = text.match(/[a-z]/gi); //|| []
-
+  const letters = text.match(/[a-z]/gi || []); //|| []
+  ///[a-z]/gi - regular expression
   return letters.length >= 2;
 }
 
 function count2(text) {
   for (const character of text) {
-    const occurrences = Array.from(text).filter((v) => v == character).length;
+    const occurrences = Array.from(text).filter(
+      (value) => value == character
+    ).length;
 
     if (occurrences >= 3) {
       return false;
