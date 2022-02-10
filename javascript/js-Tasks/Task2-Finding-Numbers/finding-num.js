@@ -38,4 +38,5 @@ function groupNumbers(arr) {
     "Positive Numbers: " + positiveArr;
   document.getElementById("negative-num").innerHTML =
     "Negative Numbers: " + negativeArr;
+  debugger;
 }
