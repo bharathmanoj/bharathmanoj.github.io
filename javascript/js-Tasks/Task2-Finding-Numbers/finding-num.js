@@ -1,8 +1,3 @@
-// if (document.getElementById("finding-num").checked) {
-//   const num = [1, 2, -4, -6, -8, 9, 7, 3, 10];
-// } else if (num == arr) {
-//   return num;
-// }
 function groupNumbers(arr) {
   var arr = [1, 2, -4, -6, -8, 9, 7, 3, 10];
 

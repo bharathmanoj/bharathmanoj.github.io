@@ -8,9 +8,7 @@ function ADDLIST() {
   addList.appendChild(createLiElements);
 }
 
-// Creating a function to remove item from list
 function REMOVELIST() {
-  // Declaring a variable to get select element
   var addList = document.getElementById("list");
   var input = document.getElementById("input");
   var item = document.getElementById(input.value);
