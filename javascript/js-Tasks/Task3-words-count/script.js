@@ -1,5 +1,5 @@
 function count1(text) {
-  const letters = text.match(/[a-z]/gi || []); //|| []
+  const letters = text.match(/[a-z]/gi); //|| []
   ///[a-z]/gi - regular expression
   return letters.length >= 2;
 }

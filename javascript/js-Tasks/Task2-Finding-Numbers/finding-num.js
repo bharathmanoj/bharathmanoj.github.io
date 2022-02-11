@@ -1,5 +1,6 @@
 function groupNumbers(arr) {
   var arr = [1, 2, -4, -6, -8, 9, 7, 3, 10];
+  // var arr = Number(document.getElementById("finding-num").value);
 
   // largest and smallest
   const smallest = Math.min(...arr);
@@ -33,5 +34,4 @@ function groupNumbers(arr) {
     "Positive Numbers: " + positiveArr;
   document.getElementById("negative-num").innerHTML =
     "Negative Numbers: " + negativeArr;
-  debugger;
 }
