@@ -1,4 +1,4 @@
-function groupNumbers(arr) {
+function groupNumbers() {
   var arr = [1, 2, -4, -6, -8, 9, 7, 3, 10];
   // var arr = Number(document.getElementById("finding-num").value);
 
@@ -35,3 +35,15 @@ function groupNumbers(arr) {
   document.getElementById("negative-num").innerHTML =
     "Negative Numbers: " + negativeArr;
 }
+
+// var num;
+// function fun() {
+//   num = parseInt(document.getElementById("num").value);
+//   if (num) {
+//     // temp = document.getElementById("resPara");
+//     // temp.style.display = "block";
+//     if (num % 2 == 0)
+//       document.getElementById("res").innerHTML = "Even Numbers : " + num;
+//     else document.getElementById("res").innerHTML = "Odd Numbers : " + num;
+//   }
+// }
