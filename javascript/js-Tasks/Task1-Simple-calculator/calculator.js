@@ -18,6 +18,7 @@ function result() {
 
   document.getElementById("sum").innerHTML = "Sum is: " + String(z);
   document.getElementById("sum").style.display = "block";
-  document.getElementById("sum").style.marginBottom = "2rem";
+  document.getElementById("sum").style.margin = "1.8rem 0rem";
   document.getElementById("sum").style.transition = "0.5s";
+  document.getElementById("sum").style.fontSize = "1.6rem";
 }
