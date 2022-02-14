@@ -1,7 +1,7 @@
 function result() {
   var x = Number(document.getElementById("input--1").value);
   var y = Number(document.getElementById("input--2").value);
-  var z = 0;
+  var z = x + y;
 
   // addition, Subtraction, Multiplication, Division
 
