@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+    ></script>
+    <title>JQuery Introduction</title>
+  </head>
+  <body>
+    <h1>Jquery Introduction</h1>
+
+    <p class="para-class">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+      recusandae incidunt repudiandae? Nisi earum aliquid exercitationem
+      consectetur perferendis libero, odio assumenda eos eligendi ex vitae nulla
+      hic ipsa soluta praesentium!
+    </p>
+
+    <p id="para-id">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+      recusandae incidunt repudiandae? Nisi earum aliquid exercitationem
+      consectetur perferendis libero, odio assumenda eos eligendi ex vitae nulla
+      hic ipsa soluta praesentium!
+    </p>
+
+    <div>
+      <p>hello</p>
+    </div>
+
+    <span>hi </span>
+
+    <ul>
+      <li>hello</li>
+      <li>hello</li>
+      <li>hello</li>
+    </ul>
+
+    <a href="#"></a>
+
+    <script type="text/javascript" language="javascript">
+      $(document).ready(function () {
+        $("h1").css("background-color", "Blue");
+
+        $(".para-class")
+          .css("background-color", "orange")
+          .css("font-size", "2rem");
+
+        $("#para-id").css("background-color", "red").css("font-size", "2rem");
+
+        $("div,span,li").css("font-size", "3rem");
+      });
+    </script>
+
+    <!-- <script src="./j.js"></script> -->
+  </body>
+</html>
