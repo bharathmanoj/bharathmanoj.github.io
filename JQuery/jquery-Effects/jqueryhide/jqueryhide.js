@@ -1,7 +1,7 @@
 $("#clickme").click(function () {
-  $("#book").hide();
+  // $("#book").hide();
   // $("#book").hide("slow"); //Create simple animation
-  // $("#book").hide("fast");
+  $("#book").hide(2000);
 });
 
 // Simple css

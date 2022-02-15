@@ -1,0 +1,11 @@
+div {
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  background-color: black;
+  margin-top: 3rem;
+}
+
+.btn {
+  margin-top: 2rem;
+}
