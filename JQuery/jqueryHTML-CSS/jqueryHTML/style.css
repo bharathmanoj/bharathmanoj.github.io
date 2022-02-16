@@ -1,0 +1,9 @@
+p {
+  margin: 8px;
+  font-size: 20px;
+  color: blue;
+  cursor: pointer;
+}
+b {
+  text-decoration: underline;
+}
