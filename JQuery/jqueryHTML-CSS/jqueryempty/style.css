@@ -1,0 +1,32 @@
+p {
+  background-color: blue;
+  color: #fff;
+  padding: 2rem;
+  width: 50%;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.div1 {
+  background-color: yellow;
+  padding: 2.2rem;
+  width: 100px;
+  height: 100px;
+  font-size: 1.4rem;
+}
+
+.div2 {
+  background-color: red;
+  padding: 2.2rem;
+  width: 100px;
+  height: 100px;
+  font-size: 1.4rem;
+}
+
+.div3 {
+  background-color: blue;
+  padding: 2.2rem;
+  width: 100px;
+  height: 100px;
+  font-size: 1.4rem;
+}
