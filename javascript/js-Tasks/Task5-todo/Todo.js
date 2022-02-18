@@ -2,13 +2,13 @@ function ADDLIST() {
   var addList = document.getElementById("list");
   var input = document.getElementById("input");
   var createLiElements = document.createElement("li");
-  var Todo = document.getElementById("input").value;
+  localStorage.setItem("Todo", "Manoj");
+  const name = localStorage.getItem("Todo");
+  localStorage.getItem("name");
 
   createLiElements.setAttribute("id", input.value);
   createLiElements.appendChild(document.createTextNode(input.value));
   addList.appendChild(createLiElements);
-  localStorage.setItem("Todo", "Manoj");
-  localStorage.getItem(Todo);
 }
 
 function REMOVELIST() {
