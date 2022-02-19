@@ -1,9 +1,9 @@
-// function displayVals() {
-//   var singleValues = $("#single").val();
-//   $("p").html("<b>Value:</b> " + singleValues);
-// }
-// $("select").change(displayVals);
-// displayVals();
+function displayVals() {
+  var singleValues = $("#single").val();
+  $("p").html("<b>Value:</b> " + singleValues);
+}
+$("select").change(displayVals);
+displayVals();
 
 // function displayVals() {
 //   var singleValues = $("#single").val();
@@ -19,8 +19,8 @@
 // displayVals();
 
 // Set the value of the input field
-$(document).ready(function () {
-  $("button").click(function () {
-    $("input:text").val("Hello Everyone");
-  });
-});
+// $(document).ready(function () {
+//   $("button").click(function () {
+//     $("input:text").val("Hello Everyone");
+//   });
+// });
