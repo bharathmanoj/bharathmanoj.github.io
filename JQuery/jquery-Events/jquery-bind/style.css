@@ -1,0 +1,12 @@
+.para {
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+.para.over {
+  background: #ccc;
+}
+span {
+  color: red;
+}
