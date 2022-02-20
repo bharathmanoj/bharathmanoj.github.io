@@ -1,0 +1,21 @@
+.container {
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  background-color: lightpink;
+}
+
+/* div {
+  width: 100px;
+  height: 80px;
+  float: left;
+  margin: 5px;
+  background: orange;
+  cursor: pointer;
+}
+.mod {
+  background: green;
+  cursor: default;
+} */

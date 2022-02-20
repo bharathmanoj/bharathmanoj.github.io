@@ -1,0 +1,38 @@
+.main {
+  font-size: 150%;
+  color: red;
+}
+
+/* example2 */
+
+.para {
+  margin: 4px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.blue {
+  color: black;
+}
+.highlight {
+  background: skyblue;
+}
+
+/*  */
+
+/* .wrap > div {
+  float: left;
+  width: 100px;
+  margin: 1em 1em 0 0;
+  padding-left: 3px;
+  border: 1px solid #abc;
+}
+div.a {
+  background-color: aqua;
+}
+div.b {
+  background-color: burlywood;
+}
+div.c {
+  background-color: cornsilk;
+} */

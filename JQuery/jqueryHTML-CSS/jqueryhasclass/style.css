@@ -1,0 +1,32 @@
+.intro {
+  font-size: 150%;
+  color: Blue;
+}
+
+/* example2 */
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+/* example3 */
+ul {
+  font-family: monospace;
+  font-size: 15px;
+  font-family: monospace;
+  font-style: normal;
+  font-size-adjust: none;
+  width: 200px;
+  padding: 0px;
+}
+
+ul li {
+  background-color: #7fffd4;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  list-style-type: none;
+  width: 200px;
+}
