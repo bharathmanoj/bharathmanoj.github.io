@@ -51,57 +51,9 @@
 //   }
 // }
 
-// JQUERY
+// PROGRESS STEPS CONVERT JAVASCRIPT TO JQUERY
 
-// $("#progress #prev #next .circle");
-
-// let currentActive = 1;
-
-// $("#next").click(function () {
-//   currentActive++;
-
-//   if (currentActive > circles.length) {
-//     currentActive = circles.length;
-//   }
-
-//   update();
-// });
-
-// $("#prev").click(function () {
-//   currentActive--;
-
-//   if (currentActive < 1) {
-//     currentActive = 1;
-//   }
-
-//   update();
-// });
-
-// $(function update() {
-//   $(".circle").forEach(function (circle, idx) {
-//     if (idx < currentActive) {
-//       circle.classList.add("active");
-//     } else {
-//       circle.classList.remove("active");
-//     }
-//   });
-
-//   $(".active");
-
-//   $("#progress").css(
-//     "width",
-//     "((active.length - 1) / (circle.length - 1)) * 100 + " % ""
-//   );
-
-//   if (currentActive === 1) {
-//     prev.disabled = true;
-//   } else if (currentActive === circle.length) {
-//     next.disabled = true;
-//   } else {
-//     prev.disabled = false;
-//     next.disabled = false;
-//   }
-// });
+// Next Button
 
 $("#next").click(function () {
   $(".circle2").addClass("active");
@@ -119,6 +71,8 @@ $("#next").click(function () {
     });
   });
 });
+
+// Previous Button
 
 $("#prev").click(function () {
   $(".circle4").removeClass("active");
