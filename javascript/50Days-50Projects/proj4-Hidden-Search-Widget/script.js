@@ -16,7 +16,7 @@
 //   input.focus();
 // });
 
-// jquery
+//HIDDEN SEARCH WIDGET JAVASCRIPT TO JQUERY
 
 $("#btn").click(function () {
   $(".search").addClass("active");
