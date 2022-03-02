@@ -24,29 +24,33 @@
 // JQUERY
 
 $(document).keypress(function () {
-  $("#bg").attr("style", "filter:blur(0px)"), 1000;
-  $("#bg").removeProp("filter");
+  // $("#bg").attr("style", "filter:blur(0px)");
+  // $("#bg").removeProp("filter");
 
-  // $("#bg").animate(
-  //   {
-  //     filter: "blur(30px)",
-  //   },
-  //   1000
-  // );
+  // $("div").text("100%").animate({
+  //   opacity: "0",
+  // });
 
-  $("div").text("100%").animate({
-    opacity: "0.9",
-  });
+  let load = 0;
 
-  $("#loading-text").attr("style", "opacity:0%");
+  let int = setInterval(blurring, 50);
+
+  function blurring() {
+    load++;
+
+    if (load > 99) {
+      clearInterval(int);
+    }
+
+    $("#loading-text").text(`${load}%`);
+    $("#loading-text").css("opacity", "scale(load, 0, 100, 1, 0)");
+
+    $("section")
+      .filter("#bg")
+      .css("filter", `blur(${scale(load, 0, 100, 50, 0)}px)`);
+  }
 });
 
-// $(document).keypress(function scale(num, in_min, in_max, out_min, out_max) {
-//   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
-// });
-
-// $(document).click(function () {
-//   $("#bg").animate({
-//     opacity: "0.9",
-//   });
-// });
+const scale = (num, in_min, in_max, out_min, out_max) => {
+  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
+};
