@@ -20,11 +20,31 @@
 
 // Jquery
 
-$(".box1").click(function () {
-  $(".box1").addClass("show");
-  $(".box").getBoundingClientRect().top;
+// $(window).scroll(function () {
+//   $(".box").addClass("show");
+//   $(".box").getBoundingClientRect().top;
+// });
 
-  $(window).click(function () {
-    $(".box").removeClass("show");
-  });
+// $(window).scroll(function () {
+//   $(".box").removeClass("show");
+// });
+
+$(window).scroll(function () {
+  function checkBoxes() {
+    const triggerBottom = (window.innerHeight / 5) * 4;
+    // ($(window).innerHeight / 5) * 4;
+
+    $(".box").each(function () {
+      const boxTop = $(".box").getBoundingClientRect().top;
+      // const boxTop = box.getBoundingClientRect().top;
+
+      if (boxTop < triggerBottom) {
+        $(".box").addClass("show");
+      } else {
+        $(".box").removeClass("show");
+      }
+    });
+  }
+
+  checkBoxes();
 });

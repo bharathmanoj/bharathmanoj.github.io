@@ -24,13 +24,6 @@
 // JQUERY
 
 $(document).keypress(function () {
-  // $("#bg").attr("style", "filter:blur(0px)");
-  // $("#bg").removeProp("filter");
-
-  // $("div").text("100%").animate({
-  //   opacity: "0",
-  // });
-
   let load = 0;
 
   let int = setInterval(blurring, 50);
@@ -54,3 +47,10 @@ $(document).keypress(function () {
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
 };
+
+// $("#bg").attr("style", "filter:blur(0px)");
+// $("#bg").removeProp("filter");
+
+// $("div").text("100%").animate({
+//   opacity: "0",
+// });
