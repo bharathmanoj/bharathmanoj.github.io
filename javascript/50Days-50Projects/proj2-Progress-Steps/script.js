@@ -72,7 +72,7 @@ $("#next").click(function () {
   });
 });
 
-// Previous Button
+// // Previous Button
 
 $("#prev").click(function () {
   $(".circle4").removeClass("active");
