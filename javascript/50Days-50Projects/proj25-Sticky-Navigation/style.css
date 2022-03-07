@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .nav .container {
@@ -124,6 +124,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: justify;
+  margin-top: 6rem;
 }
 
 .container1 {
@@ -135,4 +136,5 @@ body {
 div.container1 {
   position: sticky;
   top: 54px;
+  z-index: -1;
 }
