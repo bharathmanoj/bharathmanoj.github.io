@@ -12,29 +12,30 @@
 
 // JQUERY
 
-const labels = document.querySelectorAll(".form-control label");
-
-labels.forEach((label) => {
-  label.innerHTML = label.innerText
-    .split("")
-    .map(
-      (letter, idx) =>
-        `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
-    )
-    .join("");
+$(".form-control, label").click(function () {
+  $(".form-control, label").each(function (label) {
+    label.innerHTML = label.innerText
+      .split("")
+      .map(
+        (letter, idx) =>
+          `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+      )
+      .join();
+  });
 });
 
-// $(".form-control .label").mousedown(function () {
-//   $(".form-control .label").each(function () {
-//     $(this).split("");
-//     $(this).map(
-//       (letter, idx) =>
-//         `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
-//     );
-
-//     $(this).join("");
+// $(".form-control, label").click(function () {
+//   $(".form-control, label").each(function () {
+//     $(".form-control, label").innerHTML = $(".form-control, label")
+//       .innerText.split("")
+//       .map(
+//         (letter, idx) =>
+//           `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+//       )
+//       .join();
 //   });
 // });
+//
 
 // Split
 // let manoj = "hello, world, again";
