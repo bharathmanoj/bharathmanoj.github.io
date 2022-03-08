@@ -1,6 +1,21 @@
-const labels = document.querySelectorAll(".form-control label");
+// const labels = document.querySelectorAll(".form-control label");
 
-labels.forEach((label) => {
+// labels.forEach((label) => {
+//   label.innerHTML = label.innerText
+//     .split("")
+//     .map(
+//       (letter, idx) =>
+//         `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+//     )
+//     .join("");
+// });
+
+// JQUERY
+const formInput = document.querySelectorAll("#form-Input .label");
+
+// $("#form-Input").click(function () {
+//   $(".label").forEach((label) => {
+formInput.forEach((label) => {
   label.innerHTML = label.innerText
     .split("")
     .map(
@@ -9,20 +24,19 @@ labels.forEach((label) => {
     )
     .join("");
 });
+// });
 
-// JQUERY
-
-$(".form-control label").click(function () {
-  $("label").each(function (label) {
-    label.innerHTML = label.innerText
-      .split("")
-      .map(
-        (letter, idx) =>
-          `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
-      )
-      .join();
-  });
-});
+// $(".form-control .label").click(function () {
+//   $("label").each(function (label) {
+//     label.innerHTML = label.innerText
+//       .split("")
+//       .map(
+//         (letter, idx) =>
+//           `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+//       )
+//       .join();
+//   });
+// });
 
 // $(".form-control, label").click(function () {
 //   $(".form-control, label").each(function () {
