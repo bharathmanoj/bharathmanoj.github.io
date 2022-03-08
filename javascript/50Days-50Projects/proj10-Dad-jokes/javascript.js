@@ -20,6 +20,28 @@
 //   jokeEl.innerHTML = data.joke;
 // }
 
+// Jquery
+
+const jokeEl = document.getElementById("joke");
+
+$("#jokeBtn").click(function () {
+  async function generateJoke() {
+    const $config = {
+      headers: {
+        Accept: "application/json",
+      },
+    };
+
+    const $res = await fetch("https://icanhazdadjoke.com", $config);
+
+    const $data = await $res.json();
+
+    jokeEl.innerHTML = $data.joke;
+  }
+
+  generateJoke();
+});
+
 // Using .then()
 // function generateJoke() {
 //   const config = {
@@ -34,21 +56,3 @@
 //       jokeEl.innerHTML = data.joke
 //     })
 // }
-
-// Jquery
-
-$("#jokeBtn").click(function generateJoke() {
-  async function generateJoke() {
-    const $config = {
-      headers: {
-        Accept: "application/json",
-      },
-    };
-
-    const $res = await fetch("https://icanhazdadjoke.com", $config);
-
-    const $data = await $res.json();
-
-    $("#joke").innerHTML = $data.joke;
-  }
-});
