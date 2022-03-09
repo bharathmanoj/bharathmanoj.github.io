@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+}
+
+.ul-list1 {
+  font-size: 12px;
+  /* background-color: #2e1a47; */
+}
+
+.nav-1 {
+  color: #999 !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.ul-list {
+  margin-right: 25rem;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bg-color {
+  background-color: #2e1a47;
+  height: 5rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.bg-color1 {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+}
