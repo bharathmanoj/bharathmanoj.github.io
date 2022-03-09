@@ -22,8 +22,6 @@
 
 // Jquery
 
-const jokeEl = document.getElementById("joke");
-
 $("#jokeBtn").click(function () {
   async function generateJoke() {
     const $config = {
@@ -36,7 +34,8 @@ $("#jokeBtn").click(function () {
 
     const $data = await $res.json();
 
-    jokeEl.innerHTML = $data.joke;
+    // jokeEl.innerHTML = $data.joke;
+    $("#joke").html($data.joke);
   }
 
   generateJoke();
