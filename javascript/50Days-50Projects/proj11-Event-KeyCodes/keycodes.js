@@ -1,7 +1,28 @@
-const insert = document.getElementById("insert");
+// const insert = document.getElementById("insert");
 
-window.addEventListener("keydown", (event) => {
-  insert.innerHTML = `
+// window.addEventListener("keydown", (event) => {
+//   insert.innerHTML = `
+//   <div class="key">
+//   ${event.key === " " ? "Space" : event.key}
+//   <small>event.key</small>
+// </div>
+
+// <div class="key">
+//   ${event.keyCode}
+//   <small>event.keyCode</small>
+// </div>
+
+// <div class="key">
+//   ${event.code}
+//   <small>event.code</small>
+// </div>
+//   `;
+// });
+
+// jquery
+
+$(window).keydown(function (event) {
+  $("#insert").html(`
   <div class="key">
   ${event.key === " " ? "Space" : event.key} 
   <small>event.key</small>
@@ -15,6 +36,5 @@ window.addEventListener("keydown", (event) => {
 <div class="key">
   ${event.code}
   <small>event.code</small>
-</div>
-  `;
+</div>`);
 });
