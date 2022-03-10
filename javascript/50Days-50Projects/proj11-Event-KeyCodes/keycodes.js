@@ -29,7 +29,7 @@ $(window).keydown(function (event) {
 </div>
 
 <div class="key">
-  ${event.keyCode}
+${event.keyCode}
   <small>event.keyCode</small>
 </div>
 

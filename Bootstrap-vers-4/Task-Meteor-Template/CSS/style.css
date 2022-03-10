@@ -121,7 +121,12 @@ h1 {
 
 section .navbar {
   border-bottom: 2px solid black;
-  /* background: linear-gradient(to right, red, yellow, green); */
   width: 40%;
   margin-left: 24rem;
+}
+
+.stylehunter {
+  color: #763abe;
+  font-family: serif;
+  letter-spacing: 1px;
 }
