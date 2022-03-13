@@ -172,3 +172,40 @@ iframe {
   height: 25rem;
   border: none;
 }
+
+/* footer */
+
+.footer-logo {
+  font-size: 2.8rem;
+}
+
+footer {
+  margin-top: 8rem !important;
+  background-color: rgb(21, 22, 36);
+}
+
+.footer-icon {
+  margin-left: 10rem;
+}
+
+hr {
+  border-top: 1px solid #2e2e2e;
+  width: 61%;
+  margin-bottom: 6rem;
+}
+
+.meteor-para {
+  line-height: 28px;
+}
+
+.footer-boxbg {
+  height: 45px;
+  width: 45px;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
