@@ -1,0 +1,11 @@
+.boxbg {
+  background-color: #000;
+  width: 90px;
+  height: 90px;
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: serif;
+}

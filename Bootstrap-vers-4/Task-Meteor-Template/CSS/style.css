@@ -23,6 +23,10 @@ body {
   font-weight: 600;
 }
 
+.line {
+  border-bottom: 3px solid #2e2e2e;
+}
+
 .bg-color {
   background-color: #2e1a47;
   height: 5rem;
@@ -119,11 +123,10 @@ h1 {
 
 /* SECTION 1 STYLE HUNTER */
 
-section .navbar {
+/* section .navbar {
   border-bottom: 2px solid black;
   width: 66.7%;
-  /* margin-left: 21.8rem; */
-}
+} */
 
 .stylehunter {
   color: #763abe;
@@ -151,7 +154,7 @@ section .navbar {
   background-color: rgb(255 160 35) !important;
 }
 
-#boxshadow {
+.boxshadow {
   box-shadow: 0px 0px 8px rgb(221, 221, 221);
 }
 
@@ -162,13 +165,13 @@ section .navbar {
 }
 
 .h3 {
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 600;
   font-family: serif;
 }
 
 iframe {
-  width: 66.7%;
+  width: 100%;
   height: 25rem;
   border: none;
 }
@@ -188,12 +191,6 @@ footer {
   margin-left: 10rem;
 }
 
-hr {
-  border-top: 1px solid #2e2e2e;
-  width: 61%;
-  margin-bottom: 6rem;
-}
-
 .meteor-para {
   line-height: 28px;
 }
@@ -203,9 +200,89 @@ hr {
   width: 45px;
 }
 
-#footer-links {
+.footerlinks {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 45px;
+}
+
+.hr {
+  border-top: 1px solid #2e2e2e;
+  width: 61%;
+  margin-top: 5rem;
+}
+sup {
+  top: -3px;
+  font-size: 9px;
+}
+
+.para {
+  margin-left: 13.8rem;
+}
+
+.paragraph {
+  font-size: 13px;
+}
+
+.footer-anchor {
+  text-decoration: underline;
+}
+
+.footer-ul {
+  margin-left: 19.8rem;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* side */
+.social-links {
+  margin-top: 4rem;
+}
+
+.h5 {
+  font-family: serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.linear-color {
+  background-image: linear-gradient(#000, #41b9ff);
+  height: 14rem;
+}
+
+.vogue {
+  margin-top: 6rem;
+}
+
+.bg {
+  background-color: #000;
+}
+
+.amazing-shot {
+  height: 20rem;
+  font-family: serif;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 0.9;
+  font-weight: 600;
+  padding-top: 10.4rem;
+}
+
+.insta {
+  font-size: 5rem;
+  background: linear-gradient(to bottom, rgb(61 70 170), #ff00f2, #c7ca08);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amazing {
+  height: 20rem;
+  font-family: serif;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 0.9;
+  font-weight: 600;
+  padding-top: 16.4rem;
 }
