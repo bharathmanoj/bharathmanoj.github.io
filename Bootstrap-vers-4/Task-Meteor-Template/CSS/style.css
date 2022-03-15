@@ -286,3 +286,13 @@ sup {
   font-weight: 600;
   padding-top: 16.4rem;
 }
+
+.section1-icon {
+  background-color: #2769ac;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  padding-top: 18px;
+  margin-top: 31px;
+  font-size: 28px;
+}
