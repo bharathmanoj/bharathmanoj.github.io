@@ -52,7 +52,7 @@
 // // jquery
 
 $(".cup-small").click(function () {
-  $(this).addClass("full").toggle();
+  $(this).addClass("full");
   $("#liters").text("1.75L");
   $("#percentage")
     .css("visibility", "visible")
