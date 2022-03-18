@@ -20,18 +20,18 @@
 // }
 // fname();
 
-function message() {
-  let message = "hello everyone";
-  let message1 = "hi";
-  let message2 = "hello";
-  let numbers = "1,2,3,4,5,6,7,8,9";
-  console.log(message, message1, message2, numbers);
-  console.log(message);
-  console.log(message1);
-  console.log(message2);
-  console.log(numbers);
-}
-message();
+// function message() {
+//   let message = "hello everyone";
+//   let message1 = "hi";
+//   let message2 = "hello";
+//   let numbers = "1,2,3,4,5,6,7,8,9";
+//   console.log(message, message1, message2, numbers);
+//   console.log(message);
+//   console.log(message1);
+//   console.log(message2);
+//   console.log(numbers);
+// }
+// message();
 
 // // OUTER VARIABLES
 
