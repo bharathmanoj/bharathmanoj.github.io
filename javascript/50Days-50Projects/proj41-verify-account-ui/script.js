@@ -11,4 +11,4 @@ codes.forEach((code, idx) => {
             setTimeout(() => codes[idx - 1].focus(), 10)
         }
     })
-})
+})  
