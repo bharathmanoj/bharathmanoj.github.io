@@ -1,0 +1,129 @@
+/* BELOW 1344px (smaller desktop ) */
+@media (max-width: 1344px) {
+  .section1 {
+    max-width: 120rem;
+    transition: all 0.4s;
+  }
+  .webinars-image {
+    height: 29rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+/* BELOW 1200px ( Landscape Tablets ) */
+@media (max-width: 1200px) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+    transition: all 0.4s;
+  }
+
+  .webinars-image {
+    height: 29rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+/* BELOW 944px ( Tablets ) */
+
+@media (max-width: 944px) {
+  html {
+    font-size: 50%;
+  }
+
+  .section1 {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+  }
+
+  .webinars-image {
+    height: 23rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+/* BELOW 944px ( Mobile navigation ) */
+@media (max-width: 944px) {
+  .btn-mobile-nav {
+    display: block;
+    /* z-index: 9999; */
+  }
+
+  .navigation {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translatex(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+  }
+
+  .nav-open .navigation {
+    opacity: 1;
+    visibility: visible;
+    transform: translatex(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    color: #fff;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-list,
+  .link {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .webinars-image {
+    height: 23rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+/* BELOW 704px ( Smaller Tablets ) */
+@media (max-width: 704px) {
+  .grid-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    row-gap: 4.6rem;
+    column-gap: 2.4rem;
+  }
+
+  .webinars-image {
+    height: 17rem;
+    padding: 0 3rem;
+  }
+}
+
+/* BELOW 544px ( Phones ) */
+@media (max-width: 544px) {
+  .grid-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    row-gap: 1.6rem;
+  }
+  .copyright {
+    padding: 0px 9px;
+  }
+}
