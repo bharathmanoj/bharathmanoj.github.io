@@ -152,11 +152,11 @@ iframe {
   height: 25rem;
 }
 
-.left-btn {
+.left-btns {
   text-align: center;
 }
 
-button {
+.button {
   margin-bottom: 1.6rem;
   padding: 10px 10px;
   border: none;
