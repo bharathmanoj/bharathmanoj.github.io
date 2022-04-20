@@ -7,32 +7,23 @@ btnNavEl.addEventListener("click", function () {
 });
 
 //
-// const frame = (videos, width) => {
-//   const msg = document.querySelector("#one");
-
-//   msg.innerText = videos;
-//   msg.style.width = width;
-// };
-
-const firstbtn = document.querySelector("#btn1");
-firstbtn.addEventListener("click", function () {
-  // frame("https://www.youtube.com/embed/RbQGn6vBlys");
-  window.location.href = "https://www.youtube.com/embed/RbQGn6vBlys";
+// SECTION--1
+$("#btn1").click(function () {
+  $(".iframe1").addClass("show");
+  $(".iframe2, .iframe3, .iframe4").removeClass("show");
 });
 
-const secondbtn = document.querySelector("#btn2");
-secondbtn.addEventListener("click", function () {
-  window.location.href = "https://www.youtube.com/embed/1Rs2ND1ryYc";
+$("#btn2").click(function () {
+  $(".iframe2").addClass("show");
+  $(".iframe1, .iframe3, .iframe4").removeClass("show");
 });
 
-const thirdbtn = document.querySelector("#btn3");
-thirdbtn.addEventListener("click", function () {
-  // frame("https://www.youtube.com/embed/W6NZfCO5SIk");
-  window.location.href = "https://www.youtube.com/embed/W6NZfCO5SIk";
+$("#btn3").click(function () {
+  $(".iframe3").addClass("show");
+  $(".iframe1, .iframe2, .iframe4").removeClass("show");
 });
 
-const fourthbtn = document.querySelector("#btn4");
-fourthbtn.addEventListener("click", function () {
-  // frame("https://www.youtube.com/embed/JjIvF0yikGU");
-  window.location.href = "https://www.youtube.com/embed/JjIvF0yikGU";
+$("#btn4").click(function () {
+  $(".iframe4").addClass("show");
+  $(".iframe1, .iframe2, .iframe3").removeClass("show");
 });
