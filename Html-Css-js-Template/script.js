@@ -6,7 +6,6 @@ btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
 
-//
 // SECTION--1
 $("#btn1").click(function () {
   $(".iframe1").addClass("show");
