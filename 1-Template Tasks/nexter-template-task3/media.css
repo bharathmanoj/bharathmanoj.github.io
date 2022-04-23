@@ -1,0 +1,139 @@
+/* 1350px /16px = 84em * 16px = 1344px  */
+/* BELOW 1344px (smaller desktop ) */
+@media (max-width: 1344px) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 50.25%;
+    transition: all 0.3s ease;
+  }
+
+  .inner-container {
+    padding: 18.8rem 12.2rem 0;
+  }
+
+  .icon-bar a {
+    font-size: 4.2rem;
+    height: 327rem;
+  }
+
+  .hpy-customer h2 {
+    font-size: 26px;
+  }
+
+  .hpy-customer p {
+    font-size: 11px;
+    margin-right: 4rem;
+  }
+
+  .container {
+    max-width: 134rem;
+  }
+
+  footer-container {
+    max-width: 144rem;
+  }
+}
+
+/* 1200px /16px = 75em * 16px = 1200px  */
+/* BELOW 1200px ( Landscape Tablets ) */
+@media (max-width: 1200px) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 48.25%;
+  }
+  .footer-container {
+    max-width: 133rem;
+  }
+  .hpy-customer {
+    margin-left: 10rem;
+  }
+  .inner-container {
+    padding: 18.8rem 5.2rem 0;
+  }
+}
+
+/* 940px /16px = 59em * 16px = 944px  */
+/* BELOW 944px ( Tablets ) */
+
+@media (max-width: 944px) {
+  html {
+    /* 8px/16px = 0.5 = 50% */
+    font-size: 37%;
+  }
+
+  .inner-container {
+    padding: 18.8rem 10.2rem 0;
+  }
+
+  .header-container {
+    grid-template-columns: 1fr;
+  }
+
+  .realtors {
+    margin-top: 7rem;
+  }
+
+  .grid-coloums-2 {
+    grid-template-columns: 1fr;
+    row-gap: 8rem;
+  }
+
+  .section2-img {
+    padding-top: 13rem;
+  }
+
+  .grid-coloums-3 {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 12rem;
+  }
+
+  .tag {
+    top: 53%;
+    margin-left: 6.4rem;
+  }
+
+  .card-content p,
+  span {
+    font-size: 2rem;
+    color: #888;
+  }
+  .section2-img img {
+    width: 54%;
+  }
+
+  .pool-img img {
+    height: 33rem;
+    width: 47rem;
+  }
+
+  .icon-bar a {
+    font-size: 3.2rem;
+    height: 529rem;
+  }
+}
+
+/* 700px /16px = 44em * 16px = 704px  */
+/* BELOW 704px ( Smaller Tablets ) */
+@media (max-width: 704px) {
+  .grid-coloums-3 {
+    grid-template-columns: 1fr;
+    margin-top: 12rem;
+  }
+
+  .container {
+    max-width: 59rem;
+  }
+
+  .tag {
+    top: 48%;
+  }
+
+  .section2-img img {
+    width: 80%;
+  }
+
+  .pool-img img {
+    height: 32rem;
+    width: 48rem;
+  }
+}
