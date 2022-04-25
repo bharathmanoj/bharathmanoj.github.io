@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="#"
+          ><img src="./images.jpeg" alt="Omnifood-logo" class="logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link" href="#">Seo</a></li>
+            <li><a class="link" href="#">Page3</a></li>
+            <li><a class="link" href="#">Page4</a></li>
+            <li><a class="link" href="#">Content</a></li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container section1">
+          <div>
+            <img src="./img1.jpg" alt="img1" class="img1" />
+          </div>
+          <div>
+            <img src="./img2.jpg" alt="img2" class="img2" />
+          </div>
+          <div>
+            <img src="./im3.jpg" alt="img3" class="img3" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="grid-col3">
+            <!-- card-1 -->
+
+            <div class="card1">
+              <ion-icon name="code-slash-sharp" class="icon"></ion-icon>
+              <h2>APP DEVELOPMENT</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <!-- <button>MORE</button> -->
+              <a href="#">MORE</a>
+            </div>
+
+            <!-- card2 -->
+
+            <div class="card1">
+              <ion-icon name="settings-sharp" class="icon"></ion-icon>
+              <h2>MOBILITY SERVICES</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <a href="#">MORE</a>
+            </div>
+
+            <!-- card-3 -->
+
+            <div class="card1">
+              <ion-icon name="people-sharp" class="icon"></ion-icon>
+              <h2>CONSULTING</h2>
+              <p>
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <a href="#">MORE</a>
+            </div>
+          </div>
+
+          <div class="img-link">
+            <span>Images from <a href="#">Freepik</a></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Form Section -->
+
+      <section>
+        <div class="container">
+          <form id="contact">
+            <h3>Contact Form</h3>
+            <label>NAME</label>
+            <input placeholder="Your name" type="text" required autofocus />
+
+            <label>EMAIL</label>
+            <input placeholder="Your Email Address" type="email" required />
+
+            <label>PHONE NUMBER</label>
+            <input placeholder="Your Phone Number" type="tel" required />
+
+            <label>MEASSAGE</label>
+            <textarea
+              placeholder="Type your message here...."
+              required
+            ></textarea>
+
+            <button name="submit" type="submit" id="contact-submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="text">
+        Sample text. Click to select the text box. Click again or double click
+        to start editing the text.
+      </p>
+
+      <p class="text2">
+        <a href="#" class="clr">Website Templates</a> created with
+        <a href="#" class="clr"> Website Builder Software.</a>
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

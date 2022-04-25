@@ -1,7 +1,10 @@
-const card = document.getElementById("card");
+const cards = document.querySelectorAll(".card");
 
-card.addEventListener("click", flipcard);
-
-function flipcard() {
-  card.classList.toggle("flipcard");
+for (let i = 0; i < cards.length; i++) {
+  cards[i].addEventListener("mouseenter", function () {
+    cards[i].classList.add("flipcard");
+  });
+  cards[i].addEventListener("mouseleave", function () {
+    cards[i].classList.remove("flipcard");
+  });
 }

@@ -1,0 +1,28 @@
+/* 1200px /16px = 75em * 16px = 1200px  */
+/* BELOW 1200px ( Landscape Tablets ) */
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 50.25%;
+    transition: all 0.3s ease-in-out;
+  }
+  .container {
+    max-width: 134rem;
+  }
+
+  .section1 {
+    padding-left: 5rem;
+  }
+
+  .img2 {
+    transform: translate(74%, -12%);
+  }
+
+  .img3 {
+    transform: translate(118%, 17%);
+  }
+
+  .icon {
+    transform: translate(113%, -28%);
+  }
+}

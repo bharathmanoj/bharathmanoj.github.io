@@ -25,7 +25,7 @@ body {
   font-size: 6.2rem;
   transition: all 0.3s ease;
   background-color: #bf9562;
-  height: 318rem;
+  height: 305rem;
   padding: 1rem 1rem;
 }
 
@@ -241,29 +241,17 @@ body {
   column-gap: 6rem;
   row-gap: 5rem;
 }
-/* @media (max-width: 768px) {
-  .row {
-    width: 100%;
-  }
-} */
 
 .card {
   background-color: #ffffff;
   width: 300px;
   height: 439px;
-  margin: 20px 10px 10px 10px;
+  /* margin: 20px 10px 10px 10px; */
 
   position: relative;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
 }
-
-/* @media (max-width: 468px) {
-  .card {
-    width: 290px;
-    height: 250px;
-  }
-} */
 
 img {
   width: 100%;
