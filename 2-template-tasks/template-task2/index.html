@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+    ></script>
+    <title>Task 2</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="#">
+          <img src="./images/logo.png" alt="Template-logo" class="logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">About Us</a></li>
+            <li><a href="#" class="link">Services</a></li>
+            <li><a href="#" class="link">Blog</a></li>
+            <li><a href="#" class="link">Contact us</a></li>
+            <li><a href="#" class="link">Login</a></li>
+            <li class="search" id="search">
+              <form>
+                <input
+                  type="text"
+                  class="input"
+                  id="input"
+                  placeholder="Search..."
+                />
+              </form>
+
+              <button class="btn" id="btn">
+                <ion-icon name="search-outline" class="icon-search"></ion-icon>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION 1 BANNER IMAGE -->
+      <section class="banner-img">
+        <div class="container1">
+          <div class="header-container-inner">
+            <span>WE ARE</span>
+            <h1>PROVIDED SECURITY SERVICES</h1>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incidicunt ut labore et dolore magna aliqu. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+
+            <button class="read-btn">
+              Read More <img src="./images/arrow.png" alt="Right arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION---2 WELCOME -->
+      <section class="grid">
+        <div class="welcome-img">
+          <img src="./images/welcome.jpg" alt="welcome-image" />
+        </div>
+
+        <div class="welcome-content">
+          <span class="welcome">WELCOME</span>
+          <h2>WELCOME SECURITY SERVICES COMPANY</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which look even slightly believable. If
+            you are going to use a passage of Lorem Ipsum, you need to be sure
+            there isn't it is a long established fact that a reader will be
+            distracted by the readable content of a page whe
+          </p>
+          <span class="section2-read"
+            ><a href="#">READ MORE</a
+            ><img src="./images/arrow-black.png" alt="right-arrow"
+          /></span>
+        </div>
+      </section>
+
+      <!-- SECTION--3 IMAGES -->
+
+      <section class="container1">
+        <span class="welcome">WE</span>
+        <h2>WE PROVIDE SERVICE</h2>
+        <div class="section3-grid">
+          <img src="./images/s-1.jpg" alt="Img1" />
+          <img src="./images/s-2.jpg" alt="img2" />
+        </div>
+        <div class="section3-grid2">
+          <img src="./images/s-3.jpg" alt="Img3" />
+          <img src="./images/s-4.jpg" alt="img4" />
+        </div>
+        <span class="section3-read"
+          ><a href="#">READ MORE</a
+          ><img src="./images/arrow-black.png" alt="right-arrow"
+        /></span>
+      </section>
+
+      <!-- SECTION--4 IMAGE SLIDER -->
+
+      <section class="section4">
+        <div class="security-content">
+          <span class="security">SECURITY</span>
+          <h2>OUR GUARD</h2>
+        </div>
+
+        <div class="slider">
+          <div class="slider-items section4-grid sec4-container">
+            <div class="item active">
+              <img src="./images/security-3.jpg" />
+            </div>
+            <div class="item">
+              <img src="./images/security-1.jpg" />
+            </div>
+            <div class="item">
+              <img src="./images/security-2.jpg" />
+            </div>
+          </div>
+          <!-- slider controls -->
+          <div class="left-slide">
+            <img src="./images/left-arrow.png" alt="left-arrow" />
+          </div>
+          <div class="right-slide">
+            <img src="./images/arrow.png" alt="right-arrow" />
+          </div>
+
+          <!-- slider controls -->
+        </div>
+
+        <span class="section3-read"
+          ><a href="#">READ MORE</a
+          ><img src="./images/arrow-black.png" alt="right-arrow"
+        /></span>
+      </section>
+
+      <!-- SECTION--5 SUCCESS STORIES -->
+
+      <section class="section5-grid">
+        <div class="success-img">
+          <img src="./images/security.jpg" alt="success-image" />
+        </div>
+
+        <div class="success-content">
+          <span class="success">OUR</span>
+          <h2>SUCCESS STORIES</h2>
+          <p>
+            It is long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that it has a more-or-less normal distrubution
+            of letters, as opposed to using 'Content here, content here', making
+            it look like readable English. Many desktop publishing packages for
+            'Lorem ipsum' will uncover many web sites still in their infancy.
+            Various versions have evolved over the years, Sometimes by accident,
+            sometimes on purpose (injected humour and the like.)
+          </p>
+          <span class="section2-read"
+            ><a href="#">READ MORE</a
+            ><img src="./images/arrow-black.png" alt="right-arrow"
+          /></span>
+        </div>
+      </section>
+
+      <!-- SECTION--6 MAP AND IMAGE -->
+      <section class="section6-grid">
+        <div class="content-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230241.51103885038!2d-74.1191197439864!3d40.69281054135181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1650955027227!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="content-image">
+          <form class="form">
+            <h2>Login to your account</h2>
+            <input type="text" name="field1" placeholder="Your Name" />
+            <input type="email" name="field2" placeholder="Email" />
+            <input type="tel" name="field3" placeholder="Phone Number" />
+            <textarea placeholder="Message"></textarea>
+
+            <button class="section6-btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="text">
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believale.
+            </p>
+          </div>
+
+          <div class="address">
+            <h2>ADDRESS:</h2>
+            <ul class="footer-links">
+              <li>
+                <a href="#">
+                  <img src="./images/location.png" alt="Location"
+                /></a>
+                Address: 73 Canal Street, New York, NY
+              </li>
+
+              <li>
+                <a href="#"> <img src="./images/phone.png" alt="Location" /></a>
+                tel: +1 123 456 789
+              </li>
+
+              <li>
+                <a href="#"> <img src="./images/mail.png" alt="Location" /></a>
+                Email: demo@gmail.com
+              </li>
+            </ul>
+          </div>
+
+          <div class="newsletter">
+            <h2>NEWSLETTER</h2>
+            <form class="footer-form">
+              <input
+                type="email"
+                name="field2"
+                placeholder="ENTER YOUR EMAIL"
+              />
+
+              <button class="subscribe-btn">SUBSCRIBE</button>
+            </form>
+            <div class="footer-icons">
+              <a href="#"><img src="./images/fb.png" alt="Facebook" /></a>
+              <a href="#"><img src="./images/twitter.png" alt="twitter" /></a>
+              <a href="#"><img src="./images/linkedin.png" alt="linkedin" /></a>
+              <a href="#"><img src="./images/youtube.png" alt="youtube" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy-right">
+        <span
+          >Copyright &copy; 2019 All Rights Reserved By Free Html
+          Templates</span
+        >
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

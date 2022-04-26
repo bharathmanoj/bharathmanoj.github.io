@@ -242,13 +242,15 @@ h1 {
 .pro-info {
   /* display: block; */
   line-height: 1.8;
+  display: flex;
+  flex-direction: column;
 }
 
-.pro-info p {
+.heading {
   font-size: 1.8rem;
 }
 
-.pro-info span {
+.heading1 {
   font-size: 1.4rem;
 }
 
@@ -279,11 +281,16 @@ h1 {
   border-bottom: 2px solid #3b38449e;
 }
 
-.setting-appere span {
+.setting-appere {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
   font-size: 1.9rem;
 }
 
-.setting-appere p {
+.app1 {
   font-size: 1.6rem;
 }
 
@@ -334,14 +341,16 @@ h1 {
 
 .personal-info {
   padding: 4rem 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.personal-info span {
+.personal {
   font-size: 2rem;
   line-height: 2.7;
 }
 
-.personal-info p {
+.personal1 {
   font-size: 1.5rem;
   color: #bcbcbc;
   /* margin-bottom: 4rem; */
@@ -354,8 +363,6 @@ form {
 /* form */
 .cta-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3.2rem;
 }
 
 .cta-form label {
@@ -373,6 +380,7 @@ form {
   border: 1px solid #66626f9e;
   font-weight: 600;
   letter-spacing: 0.7px;
+  margin-bottom: 3rem;
 }
 
 .cta-form input::placeholder {
@@ -380,7 +388,6 @@ form {
 }
 
 .form {
-  margin-top: 3rem;
   padding: 0rem 5rem;
 }
 
