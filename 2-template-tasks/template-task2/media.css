@@ -1,6 +1,4 @@
-/* 1350px /16px = 84em * 16px = 1344px  */
-/* BELOW 1344px (smaller desktop ) */
-@media (max-width: 84em) {
+@media (max-width: 1344px) {
   html {
     transition: all 0.5s ease;
   }
@@ -12,9 +10,7 @@
   }
 }
 
-/* 1200px /16px = 75em * 16px = 1200px  */
-/* BELOW 1200px ( Landscape Tablets ) */
-@media (max-width: 75em) {
+@media (max-width: 1199px) {
   html {
     /* 9px/16px = 56.25% */
     font-size: 56.25%;
@@ -25,8 +21,6 @@
   }
 }
 
-/* 940px /16px = 59em * 16px = 944px  */
-/* BELOW 944px ( Tablets ) */
 @media (max-width: 943px) {
   html {
     /* 8px/16px = 0.5 = 50% */
@@ -118,9 +112,7 @@
   }
 }
 
-/* 700px /16px = 44em * 16px = 704px  */
-/* BELOW 704px ( Smaller Tablets ) */
-@media (max-width: 44em) {
+@media (max-width: 704px) {
   .header-container-inner {
     width: 100%;
   }
