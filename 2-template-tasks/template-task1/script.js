@@ -7,7 +7,7 @@ btnNavEl.addEventListener("click", function () {
 
 // cards hover
 
-const card = document.querySelectorAll("#card");
+const card = document.querySelectorAll(".card");
 
 for (let i = 0; i < card.length; i++) {
   card[i].addEventListener("mouseenter", function () {
