@@ -447,7 +447,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 4rem;
+  padding: 4rem 0rem;
 }
 
 .discard span {
