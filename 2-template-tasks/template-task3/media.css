@@ -1,0 +1,79 @@
+@media (max-width: 1199px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .banner-card {
+    margin-top: 40rem;
+  }
+
+  .banner-heading h1 {
+    font-size: 77px;
+  }
+
+  .banner-btn a {
+    margin-left: 61%;
+  }
+
+  .heading {
+    width: 38%;
+  }
+
+  .section6-img {
+    left: 28%;
+  }
+
+  .clr {
+    height: 617px;
+  }
+
+  .section6-card {
+    height: 358px;
+    width: 460px;
+  }
+
+  .section7-container {
+    max-width: 132rem;
+  }
+
+  .section7-img {
+    height: 546px;
+    top: 4%;
+    left: 1%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  .banner-heading h1 {
+    font-size: 59px;
+  }
+
+  .card1 {
+    width: 100%;
+    background-color: #fff;
+    padding: 7px 19px 13px 23px;
+  }
+
+  .section6-img {
+    left: 22%;
+  }
+
+  .banner-card {
+    margin-top: 36.4rem;
+  }
+}
+
+@media (max-width: 943px) {
+  .section1-page2 {
+    grid-template-columns: 1fr;
+    height: 122.9rem;
+  }
+
+  .page2-img img {
+    width: 60%;
+  }
+}
