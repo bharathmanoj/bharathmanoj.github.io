@@ -340,9 +340,9 @@ header {
   right: 30px;
 }
 
-.slider .slider-items .item img {
+/* .slider .slider-items .item img {
   display: block;
-}
+} */
 
 .slider .slider-items .item {
   display: none;
